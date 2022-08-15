@@ -1,0 +1,21 @@
+.rodapie{
+    background: rgb(173 187 191);  
+    opacity: 0.7;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.rodapie-img{
+    width: 8%;
+}
+
+.rodapie-texto{
+    font-weight: 600;
+    line-height: 1.3rem;
+}
+
+@media (max-width:768px){
+    .rodapie-img{
+        width: 20%;
+    }
+}

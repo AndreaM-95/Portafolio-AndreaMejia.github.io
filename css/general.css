@@ -1,0 +1,22 @@
+#cuerpo{
+    font-family: Yanone Kaffeesatz;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    background: rgb(173 187 191);  
+    opacity: 0.7;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+#video {
+    height:100%;
+    left: 0;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}

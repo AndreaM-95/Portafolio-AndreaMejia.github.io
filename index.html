@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Portafolio | Andrea Mejía</title>
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/jpg" href="./multimedia/favicon.ico"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+        <link rel="stylesheet" href="./css/general.css">
+        <link rel="stylesheet" href="./css/navegacion.css">
+        <link rel="stylesheet" href="./css/sobreMi.css">
+        <link rel="stylesheet" href="./css/hobbies.css">
+        <link rel="stylesheet" href="./css/skills.css">
+        <link rel="stylesheet" href="./css/skills2.css">
+        <link rel="stylesheet" href="./css/formacion.css">
+        <link rel="stylesheet" href="./css/complementario.css">
+        <link rel="stylesheet" href="./css/experiencia.css">
+        <link rel="stylesheet" href="./css/contactame.css">
+        <link rel="stylesheet" href="./css/rodapie.css">
+    </head>
+
+    <body id="cuerpo">
+        
+        <!--todo ---------||SECCIÓN NAVEGACIÓN||-------------->
+        <header class="headerPrincipal">
+            <div class="container">
+                <nav class="headerPrincipal-nav">
+                    <a class="headerPrincipal-nav-link" href="#">Sobre mí</a>
+                    <a class="headerPrincipal-nav-link" href="#">Skills</a>
+                    <a class="headerPrincipal-nav-link" href="#">Formación</a>
+                    <a class="headerPrincipal-nav-link" href="#">Experiencia</a>
+                    <a class="headerPrincipal-nav-link" href="#">Logros</a>
+                    <a class="headerPrincipal-nav-link" href="#">Contáctame</a>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <video src="multimedia/videos/prueba1.mp4" autoplay="true" muted="true" loop="true" alt="Video de una cascada" id="video"></video>
+        </section>
+
+        <div id="container">
+            <!--todo ---------||SECCIÓN SOBRE MI||-------------->
+            <section class="info">
+                <div class="info-foto">
+                    <img src="multimedia/perfil.jpg" alt="Foto de perfil" class="foto">
+                </div>
+                <div class="info-descripcion">
+                    <h1 class="titulo">Yuri Andrea Mejia Ramirez || Desarrolladora Front End</h1>
+                
+                    <p>
+                        Estoy formada como desarrolladora de sofware junior en la Universidad Tecnológica de Pereira, actualmente estoy participando en el proyecto Oracle ONE en Alura Latam. Empecé mi trayectoria profesional con el procesamiento de alimentos. Actualmente estudio y entrego pequeños proyectos en el área de desarrollo web dentro de mi programa estudiantil. 
+                        </br>
+                        Soy una persona curiosa, creativa y me gusta resolver problemas que requieren tanto lógica como diseño. Estar en un constante aprendizaje hace parte de mi día a día y los desafíos me motivan a encontrar las mejores soluciones.
+                    </p>
+                
+                    <a href="multimedia/Hoja de vida_Andrea Mejia.pdf" target="_blank">CV PDF</a>
+                        
+                    <a href="https://www.linkedin.com/in/yuri-andrea-mejia-ramirez-34b88517a/" target="_blank" onclick="sonido.play()">
+                        <i id="linkedin" class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                        
+                    <a href="https://github.com/AndreaM-95" target="_blank" onclick="sonido.play()">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                        
+                    <a href="https://twitter.com/Andrea_Mejia_95"  target="_blank" onclick="sonido.play()">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                        
+                    <a href="https://www.instagram.com/andremr07/" target="_blank" onclick="sonido.play()">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                        
+                    <a href="https://www.facebook.com/profile.php?id=100049506470350" target="_blank" onclick="sonido.play()">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </div> 
+            </section>
+            <hr></hr>
+            <!--todo ---------||SECCIÓN HOBBIES||-------------->
+            <h2 class="titulo_secundario">HOBBIES</h2>
+            <section class="hobbies">
+                <div class="hobbies_box">
+                    <img class="hobbie_img" src="multimedia/bicicleta.png" alt="Imágen de una bicicleta">
+                </div>
+                <div class="hobbies_box">
+                    <img class="hobbie_img" src="multimedia/leer.png" alt="Imágen de un libro">
+                </div>
+                <div class="hobbies_box">
+                    <img class="hobbie_img" src="multimedia/lapiz.png" alt="Imágen de un lápiz">
+                </div>
+                <div class="hobbies_box">
+                    <img class="hobbie_img" src="multimedia/cocina.png" alt="Imágen de un gorro de chef">
+                </div>
+                <div class="hobbies_box">
+                    <img class="hobbie_img" src="multimedia/guitarra.png" alt="Imágen de una guitarra">
+                </div>
+            </section>
+            <hr></hr>
+
+            <!--todo ---------||SECCIÓN SKILLS||-------------->
+            <h2 class="titulo_secundario">HARD SKILLS</h2>
+            <section class="hard">
+                <div class="tecnologia">
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/html.png" alt="Logo HTML5"></img>
+                        <figcaption class="hard_box_titulo">HTML 5</figcaption>
+                    </div>
+    
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/JavaScript.png" alt="Logo JavaScript"></img>
+                        <figcaption class="hard_box_titulo">JAVASCRIPT</figcaption>
+                    </div>
+    
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/css.png" alt="Logo CSS"></img>                      
+                        <figcaption class="hard_box_titulo">CSS 3</figcaption>
+                    </div>
+    
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/python.png" alt="Logo Python"></img>                    
+                        <figcaption class="hard_box_titulo">PYTHON</figcaption>
+                    </div>
+    
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia//java.png" alt="Logo Java"></img>                     
+                        <figcaption class="hard_box_titulo">JAVA</figcaption>
+                    </div>
+                </div>
+            </section>
+
+            <section class="hard2">
+                <div class="tecnologia2">
+
+                    <div class="hard_box2">
+                        <img class="hard_img2" src="multimedia/bootstrap.png" alt="Logo Bootstrap"></img>                     
+                        <figcaption class="hard_box_titulo2">Famework : Bootstrap</figcaption>
+                    </div>
+    
+                    <div class="hard_box2">
+                        <img class="hard_img2" src="multimedia/nodejs.png" alt="Logo NodeJs"></img>                     
+                        <figcaption class="hard_box_titulo2">Entorno : NodeJs</figcaption>
+                    </div>
+                    
+                    <div class="hard_box2">
+                        <img class="hard_img2" src="multimedia/MySql.png" alt="Logo MySQL"></img>                     
+                        <figcaption class="hard_box_titulo2">Base de datos : MySQL</figcaption>
+                    </div>
+    
+                    <div class="hard_box2">
+                        <img class="hard_img2" src="multimedia/git.png" alt="Logo Git"></img>                     
+                        <figcaption class="hard_box_titulo2">Control de versiones : GIT</figcaption>
+                    </div>
+                </div>
+            </section>
+            <hr></hr>
+
+            <!--todo ---------||SECCIÓN FORMACIÓN ACADÉMICA||-------------->
+            <h3 class="titulo_secundario">FORMACIÓN ACADÉMICA</h3>
+            <section class="formacion">
+                <div class="formacion-box">
+                    <img class="formacion-img" src="multimedia/alura.png" alt="Logo Alura"></img>                     
+                    <figcaption class="formacion-descripcion">Desarrollo Full Stack : En curso</figcaption>
+                </div>
+
+                <div class="formacion-box">
+                    <img class="formacion-img" src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>                     
+                    <figcaption class="formacion-descripcion">Diplomado en programación : En curso</figcaption>
+                </div>
+
+                <div class="formacion-box">
+                    <img class="formacion-img" src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>                     
+                    <figcaption class="formacion-descripcion">Diplomado en Python || 2022</figcaption>
+                </div>
+
+                <div class="formacion-box">
+                    <img class="formacion-img" src="multimedia/alura.png" alt="Logo Alura"></img>                     
+                    <figcaption class="formacion-descripcion">Desarrollo Front - End || 2022</figcaption>
+                </div>
+
+                <div class="formacion-box">
+                    <img class="formacion-img" src="multimedia/alura.png" alt="Logo Alura"></img>                     
+                    <figcaption class="formacion-descripcion">Lógica de programación || 2022</figcaption>
+                </div>
+
+                <div class="formacion-box">
+                    <img class="formacion-img" src="multimedia/sena.png" alt="Logo Sena"></img>                     
+                    <figcaption class="formacion-descripcion">Tecnólogo en procesamiento de alimentos || 2022</figcaption>
+                </div>
+            </section>
+            <hr></hr>
+
+            <!--todo ---------||SECCIÓN FORMACIÓN COMPLEMENTARIA||-------------->
+            <h3 class="titulo_secundario">FORMACIÓN COMPLEMENTARIA</h3>
+            <section class="carrusel">
+                
+                <div class="carrusel__contenedor">
+
+                    <button aria-label="Anterior" class="carrusel__anterior">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+
+                    <div class="carrusel__lista">
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS1.png" alt="Imágen certificado"></div>
+
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS5.png" alt="Imágen certificado"></div>
+                            
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS9.png" alt="Imágen certificado"></div>
+
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS2.png" alt="Imágen certificado"></div>
+                            
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/GIT23.png" alt="Imágen certificado"></div>
+                                                   
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/JS12.png" alt="Imágen certificado"></div>
+                                                    
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/JS13.png" alt="Imágen certificado"></div>
+                                                  
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/JS17.png" alt="Imágen certificado"></div>
+                                                   
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS3.png" alt="Imágen certificado"></div>                                                  
+
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS4.png" alt="Imágen certificado"></div>
+                    </div>
+
+                    <button aria-label="Siguiente" class="carrusel__siguiente">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div role="tablist" class="carrusel__indicador"></div>
+            </section>
+            <hr></hr>
+
+            <!--todo ---------||SECCIÓN EXPERIENCIA||-------------->
+            <h3 class="titulo_secundario">EXPERIENCIA PROFESIONAL</h3>
+            <section class="experiencia">
+                <div class="experiencia-box1">
+                    <h3 class="titulo_terciario">Encriptador de texto</h3>
+                    <p class="texto">Se trata de un codificador que encripta y desencripta el texto; sólo se pueden usar minúsculas, sin acentos ni números y en dado caso de que el usuario quiera faltar a estos criterios el programa le arrojará un mensaje de que sólo permite cierto tipo de letras. 
+                    </br>Para su funcionamiento posee: 
+                    </br>HTML5 = 27.1% <strong>|</strong> CSS3 = 47.1% <strong>|</strong> JavaScript = 25.8%</p>
+                    
+                    <a href="https://github.com/AndreaM-95/Cifrador-de-texto.github.io" target="_blank">
+                        <button class="botones" onclick="sonido.play()">Ver Repositorio</button>
+                    </a>
+                    <a href="#" target="_blank">
+                        <button class="botones" onclick="sonido.play()">Visitar página</button>
+                    </a>
+                </div>
+                <div class="experiencia-box2">
+                    <video class="demo" src="multimedia/videos/Cifrador de Texto.mp4"  controls muted></video>
+                </div>
+            </section>
+            <hr></hr>
+            <section class="experiencia">
+                <div class="experiencia-box1">
+                    <h3 class="titulo_terciario">Juego del ahorcado</h3>
+                    <p class="texto">Este es el popular juego donde el jugador debe adivinar la palabra oculta, por cada letra que digite si es correcta la imprimirá en pantalla sobre un guion bajo, en caso contrario se irá dibujando la horca por cada letra errónea. Tiene ambientación como música de fondo dando la opción de que el usuario la reproduzca si así lo desea.
+                    </br>Para su funcionamiento posee: 
+                    </br>HTML5 = 39.8% <strong>|</strong> CSS3 = 33.8% <strong>|</strong> JavaScript = 26.4%</p>
+                        
+                    <a href="https://github.com/AndreaM-95/Juego-Del-Ahorcado.github.io" target="_blank">
+                        <button class="botones" onclick="sonido.play()">Ver Repositorio</button>
+                    </a>
+                    <a href="https://andream-95.github.io/Juego-Del-Ahorcado.github.io/" target="_blank">
+                        <button class="botones" onclick="sonido.play()">Visitar página</button>
+                    </a>
+                </div>
+                <div class="experiencia-box2">
+                    <video class="demo" src="multimedia/videos/Juego del Ahorcado.mp4" controls muted></video>
+                </div>
+            </section>
+            <hr></hr>
+    
+            <!--todo ---------||SECCIÓN RECONOCIMIENTO Y CONTACTAME||-------------->
+            <h2 class="titulo_secundario">RECONOCIMIENTOS Y CONTACTO</h2>
+            <section class="insignias">
+                <div class="insignia-box">
+                    <div class="insignia-box-img">
+                        <figcaption class="insignia-descripcion1">Cifrador de texto con JavaScript</figcaption>
+                        <img class="insignia-img" src="multimedia/Insignia_Challenge 1_Andrea Mejia.png" alt="Insignia_Challenge"></img>                     
+                        <figcaption class="insignia-descripcion2">Insignia de reconocimiento a la culminación del Challenge impartido por la Universidad.</figcaption>
+                    </div>
+
+                    <div class="insignia-box-img">
+                        <figcaption class="insignia-descripcion1">Juego del ahorcado con JavaScript</figcaption>
+                        <img class="insignia-img" src="multimedia/Insignia_JavaScript.png" alt="Insignia_Challenge"></img>                     
+                        <figcaption class="insignia-descripcion2">Insignia de reconocimiento a la culminación del Challenge impartido por la Universidad.</figcaption>
+                    </div>
+                </div>
+
+                <div class="contactame-box">
+                    <h3 class="titulo_contacto">¿Quiere contactarme?</h3>
+                    <p class="contacto_texto">Complete el siguiente formulario y me comunicaré con usted lo antes posible.</p>
+                
+                    <input class="digitar" placeholder="Nombre">
+                    <input class="digitar" placeholder="E-mail">
+                    <input class="digitar" placeholder="Asunto">
+                    <textarea class="digitar1" placeholder="Mensaje"></textarea>
+                    <button class="btn-contacto">Enviar mensaje</button>
+                </div>
+            </section>
+        </div>
+        
+        <!--todo ---------||SECCIÓN RODAPIE||-------------->
+        <footer class="rodapie">
+            <img class="rodapie-img" src="multimedia/logo.png" alt="Logo Andrea Mejia">
+            <p class="rodapie-texto">Desarrollado por Andrea Mejia</p>
+            <p class="rodapie-texto">&copy Copyright - 2022</p>
+        </footer>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="./js/carrusel.js"></script>
+</html>
