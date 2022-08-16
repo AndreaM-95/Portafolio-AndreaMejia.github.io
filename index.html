@@ -297,16 +297,15 @@
                     </div>
                 </div>
 
-                <div class="contactame-box">
+                <form class="contactame-box" action="https://formsubmit.co/yamejia088@gmail.com" method="post">
                     <h3 class="titulo_contacto">¿Quiere contactarme?</h3>
-                    <p class="contacto_texto">Complete el siguiente formulario y me comunicaré con usted lo antes posible.</p>
-                
-                    <input class="digitar" placeholder="Nombre">
-                    <input class="digitar" placeholder="E-mail">
-                    <input class="digitar" placeholder="Asunto">
-                    <textarea class="digitar1" placeholder="Mensaje"></textarea>
-                    <button class="btn-contacto">Enviar mensaje</button>
-                </div>
+                    <p class="contacto_texto">Completa el siguiente formulario y me comunicaré contigo lo antes posible.</p>
+                    <input class="digitar" name="name" placeholder="Nombre" required>
+                    <input class="digitar" name="email" placeholder="E-mail" required>
+                    <input class="digitar" name="asunto" placeholder="Asunto">
+                    <textarea class="digitar1" name="message" placeholder="Mensaje" required></textarea>
+                    <button class="btn-contacto" type="submit">Enviar mensaje</button>
+                </form>
             </section>
         </div>
         
