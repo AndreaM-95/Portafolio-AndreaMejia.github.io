@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" type="image/jpg" href="./multimedia/favicon.ico"/>
@@ -25,6 +26,7 @@
         <link rel="stylesheet" href="./css/experiencia.css">
         <link rel="stylesheet" href="./css/contactame.css">
         <link rel="stylesheet" href="./css/rodapie.css">
+        <link rel="stylesheet" href="./css/boton-top.css">
     </head>
 
     <body id="cuerpo">
@@ -33,12 +35,11 @@
         <header class="headerPrincipal">
             <div class="container">
                 <nav class="headerPrincipal-nav">
-                    <a class="headerPrincipal-nav-link" href="#">Sobre mí</a>
-                    <a class="headerPrincipal-nav-link" href="#">Skills</a>
-                    <a class="headerPrincipal-nav-link" href="#">Formación</a>
-                    <a class="headerPrincipal-nav-link" href="#">Experiencia</a>
-                    <a class="headerPrincipal-nav-link" href="#">Logros</a>
-                    <a class="headerPrincipal-nav-link" href="#">Contáctame</a>
+                    <a class="headerPrincipal-nav-link" href="#informacion">Sobre mí</a>
+                    <a class="headerPrincipal-nav-link" href="#skills">Skills</a>
+                    <a class="headerPrincipal-nav-link" href="#academica">Formación</a>
+                    <a class="headerPrincipal-nav-link" href="#proyectos">Experiencia</a>
+                    <a class="headerPrincipal-nav-link" href="#contacto">Contáctame</a>
                 </nav>
             </div>
         </header>
@@ -48,7 +49,7 @@
 
         <div id="container">
             <!--todo ---------||SECCIÓN SOBRE MI||-------------->
-            <section class="info">
+            <section class="info" id="informacion">
                 <div class="info-foto">
                     <img src="multimedia/perfil.jpg" alt="Foto de perfil" class="foto">
                 </div>
@@ -107,7 +108,7 @@
             <hr></hr>
 
             <!--todo ---------||SECCIÓN SKILLS||-------------->
-            <h2 class="titulo_secundario">HARD SKILLS</h2>
+            <h2 class="titulo_secundario" id="skills">HARD SKILLS</h2>
             <section class="hard">
                 <div class="tecnologia">
                     <div class="hard_box">
@@ -165,7 +166,7 @@
 
             <!--todo ---------||SECCIÓN FORMACIÓN ACADÉMICA||-------------->
             <h3 class="titulo_secundario">FORMACIÓN ACADÉMICA</h3>
-            <section class="formacion">
+            <section class="formacion" id="academica">
                 <div class="formacion-box">
                     <img class="formacion-img" src="multimedia/alura.png" alt="Logo Alura"></img>                     
                     <figcaption class="formacion-descripcion">Desarrollo Full Stack : En curso</figcaption>
@@ -240,9 +241,9 @@
 
             <!--todo ---------||SECCIÓN EXPERIENCIA||-------------->
             <h3 class="titulo_secundario">EXPERIENCIA PROFESIONAL</h3>
-            <section class="experiencia">
+            <section class="experiencia" id="proyectos">
                 <div class="experiencia-box1">
-                    <h3 class="titulo_terciario">Encriptador de texto</h3>
+                    <h3 class="titulo_terciario">Cifrador de texto</h3>
                     <p class="texto">Se trata de un codificador que encripta y desencripta el texto; sólo se pueden usar minúsculas, sin acentos ni números y en dado caso de que el usuario quiera faltar a estos criterios el programa le arrojará un mensaje de que sólo permite cierto tipo de letras. 
                     </br>Para su funcionamiento posee: 
                     </br>HTML5 = 27.1% <strong>|</strong> CSS3 = 47.1% <strong>|</strong> JavaScript = 25.8%</p>
@@ -250,7 +251,7 @@
                     <a href="https://github.com/AndreaM-95/Cifrador-de-texto.github.io" target="_blank">
                         <button class="botones" onclick="sonido.play()">Ver Repositorio</button>
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="https://cifreador-de-texto.web.app/" target="_blank">
                         <button class="botones" onclick="sonido.play()">Visitar página</button>
                     </a>
                 </div>
@@ -281,7 +282,7 @@
     
             <!--todo ---------||SECCIÓN RECONOCIMIENTO Y CONTACTAME||-------------->
             <h2 class="titulo_secundario">RECONOCIMIENTOS Y CONTACTO</h2>
-            <section class="insignias">
+            <section class="insignias" id="contacto">
                 <div class="insignia-box">
                     <div class="insignia-box-img">
                         <figcaption class="insignia-descripcion1">Cifrador de texto con JavaScript</figcaption>
@@ -309,14 +310,20 @@
             </section>
         </div>
         
+        
         <!--todo ---------||SECCIÓN RODAPIE||-------------->
         <footer class="rodapie">
             <img class="rodapie-img" src="multimedia/logo.png" alt="Logo Andrea Mejia">
             <p class="rodapie-texto">Desarrollado por Andrea Mejia</p>
             <p class="rodapie-texto">&copy Copyright - 2022</p>
         </footer>
+
+        <button class="btn-scrolltop " id="btn_scrolltop"  onclick="sonido.play()">
+            <i class="fa-solid fa-circle-arrow-up"></i>
+        </button>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <script src="./js/carrusel.js"></script>
+    <script src="./js/animaciones.js"></script>
 </html>
