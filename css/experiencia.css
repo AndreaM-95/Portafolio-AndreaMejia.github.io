@@ -63,39 +63,19 @@ a{
 		display: block;
 		padding: .5rem;
 	}
-	.experiencia-box1{
-		width: 100%;
+	.experiencia-box1,.experiencia-box2, .texto{
 		padding: 0;
 	}
-	
-	.experiencia-box2{
+	.experiencia-box1, .experiencia-box2, .titulo_terciario, .texto, .botones, .demo, a{
 		width: 100%;
-		padding: 0;
-
-	}
-	
+	}	
 	.titulo_terciario{
-		width: 100;
 		font-size: 1.2rem;
 	}
-	
 	.texto{
-		width: 100%;
-		padding: 0;
 		font-size: 1rem;
 	}
 	.botones{
-		width: 100%;
 		margin: .5rem;
 	}
-	
-	a{
-		width: 100%;
-	}
-	
-	.demo{
-		width: 100%;
-
-	}
-
 }

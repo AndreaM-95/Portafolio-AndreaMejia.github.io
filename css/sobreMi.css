@@ -50,26 +50,21 @@
         display: flex;
         flex-wrap: wrap;
     }
-
     .info-foto{
         width: 100%;
     }
-    
     .foto{
         margin-left: 35%;
         width: 30%;
     }
-
     .info-descripcion{
         font-size: 1rem;
         padding: 1rem;
     }
-
     .titulo{
         font-size: 1.5rem;
         text-align: center;
     }
-
     .info-descripcion a{
         display: inline;
         height: 1rem;

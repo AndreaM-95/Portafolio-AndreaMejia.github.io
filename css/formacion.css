@@ -40,18 +40,18 @@
     .formacion-box{
         height: 9rem;
         justify-items: center;
-        margin: 0;
         text-align: center;
         width: 9rem;
     }
-    .formacion-img{
+    .formacion-box, .formacion-img, .formacion-descripcion{
         margin: 0;
+    }
+    .formacion-img{
         padding: 0;
         width: 60%;
     }
     .formacion-descripcion{
         font-size: 0.9rem;
-        margin: 0;
         padding: .2rem;
     }
 }
