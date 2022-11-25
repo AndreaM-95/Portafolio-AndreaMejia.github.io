@@ -1,6 +1,8 @@
 .formacion{
     display: flex;
     padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .formacion-box{
@@ -24,7 +26,7 @@
 }
 
 .formacion-descripcion{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     padding: .5rem;
     text-align: center;
