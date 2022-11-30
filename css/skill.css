@@ -1,0 +1,50 @@
+#skill{
+    display: flex;
+}
+.box-skill1{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: center;
+}
+.box-skill2{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: center;
+}
+.titulo-skill{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.hard_box_titulo{
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+  
+.hard_box{
+    background-color: rgb(177, 222, 223);
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    margin: 1rem 1rem 0 0;
+    padding: .5rem;
+    width: 13%;
+    height: auto;
+}
+
+.hard_box:hover{
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    background: linear-gradient(45grad, #885EF0, rgb(49, 144, 227));
+    transform: scale(1.1);
+}
+.hard_img{
+    width: 100%;
+}

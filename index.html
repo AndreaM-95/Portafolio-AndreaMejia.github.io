@@ -19,14 +19,16 @@
         <link rel="stylesheet" href="./css/navegacion.css">
         <link rel="stylesheet" href="./css/sobreMi.css">
         <link rel="stylesheet" href="./css/hobbies.css">
-        <link rel="stylesheet" href="./css/skills.css">
-        <link rel="stylesheet" href="./css/skills2.css">
+        <!--<link rel="stylesheet" href="./css/skills.css">
+        <link rel="stylesheet" href="./css/skills2.css">-->
+        <link rel="stylesheet" href="./css/skill.css">
         <link rel="stylesheet" href="./css/formacion.css">
         <link rel="stylesheet" href="./css/complementario.css">
         <link rel="stylesheet" href="./css/experiencia.css">
         <link rel="stylesheet" href="./css/contactame.css">
         <link rel="stylesheet" href="./css/rodapie.css">
         <link rel="stylesheet" href="./css/boton-top.css">
+        <link rel="stylesheet" href="./css/animacion-seccion.css"></link>
     </head>
 
     <body id="cuerpo">
@@ -35,8 +37,8 @@
         <header class="headerPrincipal">
             <div class="container">
                 <nav class="headerPrincipal-nav">
-                    <a class="headerPrincipal-nav-link" href="#informacion">Sobre mí</a>
-                    <a class="headerPrincipal-nav-link" href="#skills">Skills</a>
+                    <!--<a class="headerPrincipal-nav-link" href="#informacion">Sobre mí</a>-->s
+                    <a class="headerPrincipal-nav-link" href="#skill">Skills</a>
                     <a class="headerPrincipal-nav-link" href="#academica">Formación</a>
                     <a class="headerPrincipal-nav-link" href="#proyectos">Experiencia</a>
                     <a class="headerPrincipal-nav-link" href="#contacto">Contáctame</a>
@@ -78,36 +80,15 @@
                 </div> 
             </section>
             <hr></hr>
-            <!--todo ---------||SECCIÓN HOBBIES||-------------->
-            <h2 class="titulo_secundario">HOBBIES</h2>
-            <section class="hobbies">
-                <div class="hobbies_box">
-                    <img class="hobbie_img" src="multimedia/bicicleta.png" alt="Imágen de una bicicleta">
-                </div>
-                <div class="hobbies_box">
-                    <img class="hobbie_img" src="multimedia/leer.png" alt="Imágen de un libro">
-                </div>
-                <div class="hobbies_box">
-                    <img class="hobbie_img" src="multimedia/lapiz.png" alt="Imágen de un lápiz">
-                </div>
-                <div class="hobbies_box">
-                    <img class="hobbie_img" src="multimedia/cocina.png" alt="Imágen de un gorro de chef">
-                </div>
-                <div class="hobbies_box">
-                    <img class="hobbie_img" src="multimedia/guitarra.png" alt="Imágen de una guitarra">
-                </div>
-            </section>
-            <hr></hr>
-
+            
             <!--todo ---------||SECCIÓN SKILLS||-------------->
-            <h2 class="titulo_secundario" id="skills">HARD SKILLS</h2>
-            <section class="hard">
-                <div class="tecnologia">
+            <section id="skill">
+                <div class="box-skill1">
+                    <h3 class="titulo-skill">Hard Skills</h3>
                     <div class="hard_box">
                         <img class="hard_img" src="multimedia/html.png" alt="Logo HTML5"></img>
                         <figcaption class="hard_box_titulo">HTML 5</figcaption>
                     </div>
-    
                     <div class="hard_box">
                         <img class="hard_img" src="multimedia/JavaScript.png" alt="Logo JavaScript"></img>
                         <figcaption class="hard_box_titulo">JAVASCRIPT</figcaption>
@@ -118,55 +99,123 @@
                         <figcaption class="hard_box_titulo">CSS 3</figcaption>
                     </div>
                     
-                    <div class="hard_box2">
-                        <img class="hard_img2" src="multimedia/bootstrap.png" alt="Logo Bootstrap"></img>                     
-                        <figcaption class="hard_box_titulo2">Bootstrap</figcaption>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/bootstrap.png" alt="Logo Bootstrap"></img>                     
+                        <figcaption class="hard_box_titulo">Bootstrap</figcaption>
                     </div>
 
                     <div class="hard_box">
-                        <img class="hard_img" src="multimedia/react.png" alt="Logo React"></img>                    
+                        <img class="hard_img" src="multimedia/React.png" alt="Logo React"></img>                    
                         <figcaption class="hard_box_titulo">REACT</figcaption>
                     </div>
     
-                    <div class="hard_box2">
-                        <img class="hard_img2" src="multimedia/nodejs.png" alt="Logo NodeJs"></img>                     
-                        <figcaption class="hard_box_titulo2">NodeJs</figcaption>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/nodejs.png" alt="Logo NodeJs"></img>                     
+                        <figcaption class="hard_box_titulo">NodeJs</figcaption>
                     </div>
 
-                    
-                </div>
-            </section>
-
-            <section class="hard2">
-                <div class="tecnologia2">
                     <div class="hard_box">
                         <img class="hard_img" src="multimedia//java.png" alt="Logo Java"></img>                     
                         <figcaption class="hard_box_titulo">JAVA</figcaption>
                     </div>
                     
-                    <div class="hard_box2">
-                        <img class="hard_img2" src="multimedia/MySql.png" alt="Logo MySQL"></img>                     
-                        <figcaption class="hard_box_titulo2">MySQL</figcaption>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/MySql.png" alt="Logo MySQL"></img>                     
+                        <figcaption class="hard_box_titulo">MySQL</figcaption>
                     </div>
 
-                    <div class="hard_box2">
-                        <img class="hard_img2" src="multimedia/unity.png" alt="Logo Unity"></img>                     
-                        <figcaption class="hard_box_titulo2">UNITY</figcaption>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/mongo.png" alt="Logo Mongodb"></img>                     
+                        <figcaption class="hard_box_titulo">Mongo DB</figcaption>
                     </div>
 
-                    <div class="hard_box2">
-                        <img class="hard_img2" src="multimedia/python.png" alt="Logo PYTHON"></img>                     
-                        <figcaption class="hard_box_titulo2">PYTHON</figcaption>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/unity.png" alt="Logo Unity"></img>                     
+                        <figcaption class="hard_box_titulo">UNITY</figcaption>
                     </div>
 
-                    <div class="hard_box2">
-                        <img class="hard_img2" src="multimedia/C.png" alt="Logo C#"></img>                     
-                        <figcaption class="hard_box_titulo2">C#</figcaption>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/python.png" alt="Logo PYTHON"></img>                     
+                        <figcaption class="hard_box_titulo">PYTHON</figcaption>
                     </div>
 
-                    <div class="hard_box2">
-                        <img class="hard_img2" src="multimedia/git.png" alt="Logo Git"></img>                     
-                        <figcaption class="hard_box_titulo2">GIT</figcaption>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/C.png" alt="Logo C#"></img>                     
+                        <figcaption class="hard_box_titulo">C#</figcaption>
+                    </div>
+
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/git.png" alt="Logo Git"></img>                     
+                        <figcaption class="hard_box_titulo">GIT</figcaption>
+                    </div>
+                </div>
+                
+                <!--todo ---------||SECCIÓN Soft skills||------------>
+                <div class="box-skill2">
+                    <h3 class="titulo-skill">Soft Skills</h3>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/Adaptabilidad (1).png" alt="Logo Git"></img>                     
+                        <figcaption class="hard_box_titulo">Adaptabilidad</figcaption>
+                    </div>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia//Comunicacion (1).png" alt="Logo Git"></img>                     
+                        <figcaption class="hard_box_titulo">Comunicación</figcaption>
+                    </div>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/Liderazgo (1).png" alt="Logo Git"></img>                     
+                        <figcaption class="hard_box_titulo">Liderazgo</figcaption>
+                    </div>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/TrabajoEquipo (1).png" alt="Logo Git"></img>                     
+                        <figcaption class="hard_box_titulo">Trabajo en equipo</figcaption>
+                    </div>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/Empatia (1).png" alt="Logo Git"></img>                     
+                        <figcaption class="hard_box_titulo">Empatía</figcaption>
+                    </div>
+
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/Tiempo.png" alt="Imágen de una guitarra">
+                        <figcaption class="hard_box_titulo">Gestión del Tiempo</figcaption>
+                    </div>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/Futuro.png" alt="Imágen de una guitarra">
+                        <figcaption class="hard_box_titulo">Orientación al futuro</figcaption>
+                    </div>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/Detalle.png" alt="Imágen de una guitarra">
+                        <figcaption class="hard_box_titulo">Orientación al detalle</figcaption>
+                    </div>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/Mentalidad.png" alt="Imágen de una guitarra">
+                        <figcaption class="hard_box_titulo">Mentalidad de crecimiento</figcaption>
+                    </div>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/Persistencia.png" alt="Imágen de una guitarra">
+                        <figcaption class="hard_box_titulo">Persistencia</figcaption>
+                    </div>
+
+                    <!--todo ---------||SECCIÓN HOBBIES||------------>
+                    <h3 class="titulo-skill">Hobbies</h3>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/bicicleta.png" alt="Imágen de una bicicleta">
+                        <figcaption class="hard_box_titulo">Montar bicicleta</figcaption>
+                    </div>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/leer.png" alt="Imágen de un libro">
+                        <figcaption class="hard_box_titulo">Leer</figcaption>
+                    </div>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/lapiz.png" alt="Imágen de un lápiz">
+                        <figcaption class="hard_box_titulo">Dibujar</figcaption>
+                    </div>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/cocinar.png" alt="Imágen de un gorro de chef">
+                        <figcaption class="hard_box_titulo">Cocinar</figcaption>
+                    </div>
+                    <div class="hard_box">
+                        <img class="hard_img" src="multimedia/guitarra.png" alt="Imágen de una guitarra">
+                        <figcaption class="hard_box_titulo">Tocar guitarra</figcaption>
                     </div>
                 </div>
             </section>
@@ -175,49 +224,113 @@
             <!--todo ---------||SECCIÓN FORMACIÓN ACADÉMICA||-------------->
             <h3 class="titulo_secundario">FORMACIÓN ACADÉMICA</h3>
             <section class="formacion" id="academica">
-                <div class="formacion-box">
-                    <img class="formacion-img" src="multimedia/unity.png" alt="Logo Unity"></img>                     
-                    <figcaption class="formacion-descripcion">Desarrollo de VideoJuegos en Unity : En curso</figcaption>
+                
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/Generation.png" alt="Logo Generation"></img>                     
+                            <div class="capa">
+                                <p>Desarrollo de VideoJuegos en Unity</p>
+                                <p><u>En curso</u></p>
+                            </div>
+                        </figure>
+                    </div>
                 </div>
 
-                <div class="formacion-box">
-                    <img class="formacion-img" src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>                     
-                    <figcaption class="formacion-descripcion">Diplomado en aplicaciones web || 2022</figcaption>
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>                     
+                            <div class="capa">
+                                <p>Diplomado en aplicaciones web</p>
+                                <p><u>En curso</u></p>
+                            </div>
+                        </figure>
+                    </div>
                 </div>
 
-                <div class="formacion-box">
-                    <img class="formacion-img" src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>                     
-                    <figcaption class="formacion-descripcion">Diplomado en desarrollo de software || 2022</figcaption>
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>                     
+                            <div class="capa">
+                                <p>Diplomado en desarrollo de software</p>
+                                <p><u>2022</u></p>
+                            </div>
+                        </figure>
+                    </div>
                 </div>
 
-                <div class="formacion-box">
-                    <img class="formacion-img" src="multimedia/alura.png" alt="Logo Alura"></img>                     
-                    <figcaption class="formacion-descripcion">Desarrollo Full Stack || 2022</figcaption>
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/alura.png" alt="Logo Alura"></img>                     
+                            <div class="capa">
+                                <p>Desarrollo Full Stack</p>
+                                <p><u>2022</u></p>
+                            </div>
+                        </figure>
+                    </div>
                 </div>
 
-                <div class="formacion-box">
-                    <img class="formacion-img" src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>                     
-                    <figcaption class="formacion-descripcion">Diplomado en fundamentos en programación JAVA || 2022</figcaption>
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>                     
+                            <div class="capa">
+                                <p>Diplomado en fundamentos en programación JAVA</p>
+                                <p><u>2022</u></p>
+                            </div>
+                        </figure>
+                    </div>
                 </div>
 
-                <div class="formacion-box">
-                    <img class="formacion-img" src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>                     
-                    <figcaption class="formacion-descripcion">Diplomado en fundamentos en programación Python || 2022</figcaption>
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>                     
+                            <div class="capa">
+                                <p>Diplomado en fundamentos en programación Python</p>
+                                <p><u>2022</u></p>
+                            </div>
+                        </figure>
+                    </div>
                 </div>
 
-                <div class="formacion-box">
-                    <img class="formacion-img" src="multimedia/alura.png" alt="Logo Alura"></img>                     
-                    <figcaption class="formacion-descripcion">Desarrollo Front - End || 2022</figcaption>
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/alura.png" alt="Logo Alura"></img>                     
+                            <div class="capa">
+                                <p>Desarrollo Front - End</p>
+                                <p><u>2022</u></p>
+                            </div>
+                        </figure>
+                    </div>
                 </div>
 
-                <div class="formacion-box">
-                    <img class="formacion-img" src="multimedia/alura.png" alt="Logo Alura"></img>                     
-                    <figcaption class="formacion-descripcion">Lógica de programación || 2022</figcaption>
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/alura.png" alt="Logo Alura"></img>                     
+                            <div class="capa">
+                                <p>Lógica de programación</p>
+                                <p><u>2022</u></p>
+                            </div>
+                        </figure>
+                    </div>
                 </div>
 
-                <div class="formacion-box">
-                    <img class="formacion-img" src="multimedia/sena.png" alt="Logo Sena"></img>                     
-                    <figcaption class="formacion-descripcion">Tecnólogo en procesamiento de alimentos || 2022</figcaption>
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/sena.png" alt="Logo Sena"></img>                     
+                            <div class="capa">
+                                <p>Tecnólogo en procesamiento de alimentos</p>
+                                <p><u>2020 - 2022</u></p>
+                            </div>
+                        </figure>
+                    </div>
                 </div>
             </section>
             <hr></hr>
@@ -392,21 +505,41 @@
                     <video class="demo" src="multimedia/videos/Cifrador de Texto.mp4"  controls muted></video>
                 </div>
             </section>
-    
+            
+            <hr></hr>
             <!--todo ---------||SECCIÓN RECONOCIMIENTO Y CONTACTAME||-------------->
-            <h2 class="titulo_secundario">RECONOCIMIENTOS Y CONTACTO</h2>
+            <h2 class="titulo_secundario">RECONOCIMIENTOS</h2>
+            <p class="texto-insignia">Insignias de reconocimiento a la culminación de los Challenge impartidos por la Universidad.</p>
             <section class="insignias" id="contacto">
                 <div class="insignia-box">
                     <div class="insignia-box-img">
-                        <figcaption class="insignia-descripcion1">Cifrador de texto con JavaScript</figcaption>
+                        <figcaption class="insignia-descripcion1">Cifrador de texto</figcaption>
                         <img class="insignia-img" src="multimedia/Insignia_Challenge 1_Andrea Mejia.png" alt="Insignia_Challenge"></img>                     
-                        <figcaption class="insignia-descripcion2">Insignia de reconocimiento a la culminación del Challenge impartido por la Universidad.</figcaption>
                     </div>
 
                     <div class="insignia-box-img">
-                        <figcaption class="insignia-descripcion1">Juego del ahorcado con JavaScript</figcaption>
-                        <img class="insignia-img" src="multimedia/Insignia_JavaScript.png" alt="Insignia_Challenge"></img>                     
-                        <figcaption class="insignia-descripcion2">Insignia de reconocimiento a la culminación del Challenge impartido por la Universidad.</figcaption>
+                        <figcaption class="insignia-descripcion1">Juego del ahorcado</figcaption>
+                        <img class="insignia-img" src="multimedia/Insignia_JavaScript.png" alt="Insignia_Challenge"></img>      
+                    </div>
+
+                    <div class="insignia-box-img">
+                        <figcaption class="insignia-descripcion1">Portafolio</figcaption>
+                        <img class="insignia-img" src="multimedia/insignia_portafolio.png" alt="Insignia_Challenge"></img>
+                    </div>
+
+                    <div class="insignia-box-img">
+                        <figcaption class="insignia-descripcion1">E-Commerce</figcaption>
+                        <img class="insignia-img" src="multimedia/insignia_e-commerce.png" alt="Insignia_Challenge"></img>
+                    </div>
+
+                    <div class="insignia-box-img">
+                        <figcaption class="insignia-descripcion1">Convertidor de unidades</figcaption>
+                        <img class="insignia-img" src="multimedia/insignia_Java_Convertidor.png" alt="Insignia_Challenge"></img>
+                    </div>
+
+                    <div class="insignia-box-img">
+                        <figcaption class="insignia-descripcion1">Hotel Alura</figcaption>
+                        <img class="insignia-img" src="multimedia/insignia-Hotel-Challenge6.png" alt="Insignia_Challenge"></img>
                     </div>
                 </div>
 

@@ -2,20 +2,20 @@
     display: flex;
     padding: 1rem;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .formacion-box{
     background-color: rgb(117, 176, 178);
     border-radius: 5px;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
-    margin: 0 1rem 1rem 1rem;
-    width: 15%;
+    margin: .5rem;
+    width: 12%;
 }
 
 .formacion-box:hover{
     box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
-    background: linear-gradient(45grad, #885EF0, rgb(16, 85, 145));
+    background: linear-gradient(45grad, #885EF0, rgb(49, 144, 227));
     transform: scale(1.1);
 }
 
