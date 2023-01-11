@@ -2,7 +2,7 @@
    display: flex;
 }
 
-.info-foto{
+/*.info-foto{
     padding: 1rem 0 1rem 1rem;
     width: 40%;
 }
@@ -12,6 +12,57 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .8);
     width: 100%;
 }
+*/
+
+.colaboradores-box3{
+    width: 40%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.colab-box1{
+    position: relative;
+    max-width: 10rem;
+}
+.colab-box1::before {
+    content: "";
+    position:absolute;
+    inset: -15px;
+    border: 5px solid #000000;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 100%;
+    animation: spin 5s linear infinite; 
+}
+@keyframes spin {
+   to{ transform: rotate(360deg);}
+}
+
+.img_colab1{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.cargo{
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 2.5rem;
+    color: rgb(245 245 220);
+    text-shadow: 2px 2px 5px rgb(0 0 0 / 80%);
+}
+
+.hdv{
+    background-color: #516B6C;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .8);
+    color: white;
+    padding: .5rem;
+    font-size: 1.5rem;
+    margin-top: 1.42rem;
+}
+
 
 .info-descripcion{
     font-size: 1.4rem;
