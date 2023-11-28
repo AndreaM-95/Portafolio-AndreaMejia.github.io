@@ -1,25 +1,11 @@
 .info{
    display: flex;
 }
-
-/*.info-foto{
-    padding: 1rem 0 1rem 1rem;
-    width: 40%;
-}
-
-.foto{
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .8);
-    width: 100%;
-}
-*/
-
 .colaboradores-box3{
     width: 40%;
     padding-top: 2rem;
     padding-left: 2rem;
 }
-
 .colab-box1{
     position: relative;
     max-width: 10rem;
@@ -37,14 +23,12 @@
 @keyframes spin {
    to{ transform: rotate(360deg);}
 }
-
 .img_colab1{
     width: 10rem;
     height: 10rem;
     border-radius: 100%;
     object-fit: cover;
 }
-
 .cargo{
     font-size: 1.6rem;
     text-align: center;
@@ -52,7 +36,6 @@
     color: rgb(245 245 220);
     text-shadow: 2px 2px 5px rgb(0 0 0 / 80%);
 }
-
 .hdv{
     background-color: #516B6C;
     border-radius: 5px;
@@ -62,8 +45,6 @@
     font-size: 1.5rem;
     margin-top: 1.42rem;
 }
-
-
 .info-descripcion{
     font-size: 1.4rem;
     padding:1rem 2.5rem 1.5rem 1.7rem;
@@ -71,13 +52,11 @@
     line-height: 2rem;
     color: black;
 }
-
 .titulo{
     font-size: 2.5rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, .8);
     color: beige;
 }
-
 .info-descripcion a{
     background-color: #516B6C;
     border-radius: 5px;
@@ -91,38 +70,8 @@
     font-weight: 600;
 
 }
-
 .info-descripcion a:hover{
     box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
     background: #885EF0;
     transform: scale(1.2);
-}
-
-@media (max-width:768px){       /*PARA TABLET*/
-    .info{
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .info-foto{
-        width: 100%;
-    }
-    .foto{
-        margin-left: 35%;
-        width: 30%;
-    }
-    .info-descripcion{
-        font-size: 1rem;
-        padding: 1rem;
-    }
-    .titulo{
-        font-size: 1.5rem;
-        text-align: center;
-    }
-    .info-descripcion a{
-        display: inline;
-        height: 1rem;
-        margin: .2rem;
-        padding: .5rem;
-    }
 }

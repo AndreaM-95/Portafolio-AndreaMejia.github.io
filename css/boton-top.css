@@ -18,9 +18,3 @@
     color: #7d24d6;
     font-size: 3rem;
 }
-
-@media (max-width:768px){
-    .fa-circle-arrow-up:before{
-        font-size: 2rem;
-    }
-}

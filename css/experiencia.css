@@ -61,25 +61,3 @@ a{
 	border-radius: 10px;
 	box-shadow: 5px 10px 18px black;
 }
-
-@media (max-width:768px){
-	.experiencia{
-		display: block;
-		padding: .5rem;
-	}
-	.experiencia-box1,.experiencia-box2, .texto{
-		padding: 0;
-	}
-	.experiencia-box1, .experiencia-box2, .titulo_terciario, .texto, .botones, .demo, a{
-		width: 100%;
-	}	
-	.titulo_terciario{
-		font-size: 1.2rem;
-	}
-	.texto{
-		font-size: 1rem;
-	}
-	.botones{
-		margin: .5rem;
-	}
-}

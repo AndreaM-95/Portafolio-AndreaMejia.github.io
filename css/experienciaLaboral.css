@@ -1,0 +1,42 @@
+#box__experiencia
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box__experiencia__1
+{
+    width: 50%;
+    padding: 0 2% 0 2%;
+}
+
+.box__descripcion
+{
+    width: 100%;
+}
+
+.texto
+{
+    text-align: justify;
+}
+
+.subtitulo_terciario
+{
+    width: 100%;
+    color: black;
+    font-weight: 600;
+    padding: 0 3% 0 3%;
+    font-size: 1.3rem;
+}
+.carousel-item{
+    width: 100%;
+}
+.imagen{
+    width: 98%;
+    height: 380px;
+}
+.d-block, .imagen
+{
+    border-radius: 10px;
+}

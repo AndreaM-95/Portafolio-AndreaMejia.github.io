@@ -37,7 +37,7 @@
 .carrusel__siguiente{
     right: -2rem;
 }
-.carrusel__indicador .glider-dot{
+.glider-dot{
     display: block;
 }
 .glider-dot.active{
@@ -47,23 +47,4 @@
 .fa-chevron-left:before{
     color: #2189A2;
     font-size: 2rem;
-}
-
-@media (max-width:768px){
-    .carrusel{
-        padding: 0 2rem 0 2rem;
-        width: auto;
-    }
-
-    .carrusel__contenedor{
-        height: 12.5rem;
-        margin: 0;
-        position: relative;
-        width: 100%;
-    }
-
-    .carrusel__indicador{
-        align-items: center;
-        width: 80%;
-    }
 }

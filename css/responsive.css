@@ -1,0 +1,403 @@
+
+/* Tamaño por defecto pantallas (1280-1024) */
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+  
+/* Tamaño tablet horizontal (1024-768) */
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+/* Tamaño tablet (768-480) */
+@media all and (min-width: 480px) and (max-width: 768px) { 
+
+    /* Sección barra de navegación */
+    .container{
+        margin: 0;
+        width: 100%;
+        max-width: none;
+    }
+    .headerPrincipal-nav {
+        width: 100%;
+        display: contents;
+    }
+    .headerPrincipal-nav-link {
+        width: 9%;
+        height: 35px;
+        margin: 0.2rem;
+        padding: 0;
+        font-size: 15px;
+        align-items: center;
+    }
+
+    /*Sección sobre mi*/
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .colaboradores-box3{
+        width: 100%;
+        padding: 30px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .colab-box1{
+        align-items: center;
+    }
+    .hdv{
+        width: 35%;
+        height: 40px;
+        font-size: 20px;
+    }
+    .titulo{
+        font-size: 36px;
+        text-align: center;
+    }
+    .info-descripcion p{
+        font-size: 16px;
+        margin: 0;
+    }
+
+    /* Sección hard y soft skills */
+    #skill{
+        flex-direction: column;
+    }
+    .titulo-skill{
+        margin: 15px 0 0 0;
+    }
+    .box-skill1, .box-skill2
+    {
+        width: 100%;
+        padding-top: 0;
+    }
+    .hard_box{
+        width: 10%;
+    }
+    .hard_box_titulo{
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    /*Sección formación*/
+    .formacion{
+        height: auto;
+        padding: 1rem;
+    }
+    .formacion-box{
+        width: 15%;
+    }
+
+    .titulo_secundario{
+        padding: 0;
+    }
+     .formacion-img, .formacion-descripcion{
+        margin: 0;
+    }
+    .formacion-img{
+        padding: 0;
+        width: 60%;
+    }
+    .contenedor figure .capa p {
+        font-size: 12px;
+    }
+
+    /* Sección formación complementaria*/
+    .slider_img{
+        height: 100%;
+    }
+    .carrusel__contenedor {
+        height: auto;
+    }
+    .imagen, .carousel-item{
+        height: -webkit-fill-available;
+    }
+
+    /*Sección experiencia*/
+    .experiencia{
+		display: block;
+		padding: .5rem;
+	}
+	.experiencia-box1,.experiencia-box2, .texto{
+		padding: 0;
+	}
+	.experiencia-box1, .experiencia-box2, .titulo_terciario, .texto, .botones, .demo, a{
+		width: 100%;
+	}	
+	.titulo_terciario{
+		font-size: 1.2rem;
+	}
+	.texto{
+		font-size: 1rem;
+        padding: 0;
+	}
+	.botones{
+        margin: 0 0 15px 0;
+        width: 20%;
+        font-weight: 600;
+        font-size: 15px;
+        height: 40px;
+	}
+    .demo{
+        width: 70%;
+    }
+    .experiencia-box2{
+        justify-content: center;
+        display: flex;
+    }
+
+    #carouselExampleControls2{
+        height: auto;
+    }
+    .carousel-inner{
+        height: 280px;
+    }
+    .contactame-box{
+        width: 70%;
+    }
+    .contacto_texto{
+        margin: 0;
+        font-size: 18px;
+        width: 90%;
+        padding-bottom: 0;
+    }
+    .btn-contacto {
+        margin: 8px 0 15px 0;
+        font-size: 16px;
+        font-weight: 600;
+        width: 40%;
+        height: 35px;
+    }
+
+    /*Sección rodapie*/
+    .rodapie-img{
+        width: 10%;
+    }
+    .rodapie-texto {
+        margin: 0;
+    }
+    /*Botón volver*/
+    .fa-circle-arrow-up:before{
+        font-size: 2rem;
+    }
+}
+
+/* Tamaño teléfonos (480-menos ) */
+@media all and (max-width: 480px) {
+
+    /* Sección barra de navegación */
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .headerPrincipal-nav {
+        width: 100%;
+        justify-content: center;
+    }
+    .headerPrincipal-nav-link {
+        height: 30px;
+        justify-content: center;
+        padding: 2px;
+        font-size: 14px;
+        align-items: center;
+        margin: 0 5px 0 5px;
+    }
+
+    /* Sección foto e información */
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .colaboradores-box3{
+        width: 100%;
+        padding: 30px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .colab-box1{
+        align-items: center;
+    }
+    
+    .hdv{
+        width: 35%;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .titulo{
+        font-size: 28px;
+        text-align: center;
+    }
+    .info-descripcion{
+        padding: 20px 20px 0 20px;
+    }
+    .info-descripcion p{
+        font-size: 16px;
+    }
+    .info-descripcion a {
+        width: 30px;
+        margin: 0 4px 0 0;
+    }
+
+    /* Sección hard y soft skills */
+    #skill{
+        flex-direction: column;
+    }
+    .box-skill1, .box-skill2
+    {
+        padding-top: 0;
+        width: 100%;
+    }
+    .hard_box{
+        width: 20%;
+    }
+    .hard_box_titulo{
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    /* Sección formación */
+    .formacion{
+        height: auto;
+        padding-top: 0;
+    }
+    .formacion-box {
+        height: 5rem;
+        justify-items: center;
+        text-align: center;
+        width: 5rem;
+        margin-top: 8px;
+    }
+    .contenedor figure .capa p {
+        font-size: 10px;
+    }
+    /* Sección formación complementaria*/
+
+    .carrusel{
+        padding-bottom: 0;
+    }
+    .slider_img{
+        height: 100%;
+    }
+    .carrusel__contenedor {
+        height: auto;
+    }
+    .imagen, .carousel-item{
+        height: -webkit-fill-available;
+    }
+    /* Sección experiencia laboral*/
+    #box__experiencia, .experiencia{
+        flex-direction: column;
+    }
+    .experiencia{
+        padding: 0 10px 0 10px;
+    }
+    .experiencia p
+    {
+        font-size: 16px;
+        padding: 0 3% 0 3%;
+    }
+    .box__experiencia__1, .experiencia-box1 {
+        width: 100%;
+        padding: 2%;
+        margin-top: 10px;
+    }
+    .experiencia-box2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .demo{
+        width: 90%;
+    }
+    .titulo_secundario{
+        padding-bottom: 0;
+    }
+    .titulo_terciario {
+        font-size: 20px;
+        margin: 0;
+        padding: 0 3% 0 3%;
+    }
+    .subtitulo_terciario{
+        font-size: 16px;
+        margin: 5px 0 5px 0;
+    }
+    .box__descripcion p {
+        font-size: 16px;
+    }
+
+    /*Sección proyectos*/
+    .botones {
+        font-weight: 600;
+        margin: 0.5rem;
+        width: 40%;
+        height: 40px;
+        font-size: 16px;
+    }
+    /*Sección reconocimientos*/
+    .titulo_secundario{
+        font-size: 22px;
+        padding-top: 0;
+    }
+    .texto-insignia{
+        font-size: 16px;
+        width: 70%;
+        margin: 0;
+    }
+    .box_texto{
+        display: flex;
+        justify-content: center;
+    }
+    .insignia-box{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .insignia-descripcion1{
+        font-size: 12px;
+    }
+    .insignia-box-img{
+        width: 20%;
+        padding: 2px;
+        height: 100px;
+        margin: 2px 7px 6px 0;
+    }
+
+    .contactame-box{
+        width: 100%;
+    }
+
+    .titulo_contacto{
+        font-size: 22px;
+        margin: 0;
+    }
+    .contacto_texto{
+        margin: 0;
+        font-size: 16px;
+        width: 60%;
+    }
+    .digitar {
+        height: 30px;
+    }
+    .btn-contacto {
+        margin: 8px 0 15px 0;
+        font-size: 16px;
+        font-weight: 600;
+        width: 40%;
+        height: 35px;
+    }
+    .rodapie-texto {
+        margin: 0;
+    }
+    /*Sección rodapie*/
+    .rodapie-img{
+        width: 20%;
+    }
+    .rodapie-texto {
+        margin: 0;
+    }
+    /*Botón volver*/
+    .fa-circle-arrow-up:before{
+        font-size: 2rem;
+    }
+}

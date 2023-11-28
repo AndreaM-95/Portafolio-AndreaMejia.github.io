@@ -32,19 +32,3 @@
 .hobbie_img{
     width: 100%;
 }
-
-@media (max-width:768px){ 
-    .titulo_secundario{
-        font-size: 1.1rem;
-        margin: 0;
-    }
-
-    .hobbies{
-        display: flex;
-        height: 5rem;
-    }
-    .hobbies_box{
-        margin: 0 .5rem .5rem .5rem;
-        width: 20%;
-    }
-}

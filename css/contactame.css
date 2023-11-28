@@ -99,19 +99,3 @@
     transform:scale(1.1);
 	cursor: pointer;
 }
-
-@media (max-width:768px){
-    .insignias, .insignia-box, .contactame-box{
-        flex-direction: column;
-    }
-    .insignia-box, .contactame-box{
-        width: 100%;
-    }
-    .btn-contacto{
-        width: 80%;
-    }
-    .insignia-box-img{
-        width: 90%;
-        margin-bottom: 1rem;
-    }
-}
