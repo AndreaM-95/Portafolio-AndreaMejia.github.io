@@ -1,13 +1,77 @@
 
 /* Tamaño por defecto pantallas (1280-1024) */
-@media all and (min-width: 1024px) and (max-width: 1280px) { }
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .container{
+        max-width: none;
+    }
+    .headerPrincipal-nav {
+        display: contents;
+    }
+    .headerPrincipal-nav-link {
+        height: 35px;
+        font-size: 15px;
+    }
+    .hard_box {
+        width: 15%;
+    }
+    .hard_box_titulo {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    /*Sección contáctame*/
+    .contacto_texto {
+        padding: 0 15px 0 15px;
+    }
+    .btn-contacto {
+        margin: 20px 0 20px 0;
+    }
+    .rodapie-texto {
+        margin: 0;
+    }
+}
   
 /* Tamaño tablet horizontal (1024-768) */
-@media all and (min-width: 768px) and (max-width: 1024px) { }
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    /* Sección barra de navegación */
+    .container{
+        max-width: none;
+    }
+    .headerPrincipal-nav {
+        display: contents;
+    }
+    .headerPrincipal-nav-link {
+        height: 35px;
+        font-size: 15px;
+    }
+    /*Sección soft y hard skills*/
+    #skill {
+        flex-direction: column;
+    }
+    .box-skill1, .box-skill2 {
+        width: 100%;
+    }
+    .hard_box {
+        width: 12%;
+    }
+    /*Sección experiencia*/
+    .experiencia-box2 {
+        display: flex;
+        align-items: center;
+    }
+    /*Sección contáctame*/
+    .contacto_texto {
+        padding: 0 15px 0 15px;
+    }
+    .btn-contacto {
+        margin: 20px 0 20px 0;
+    }
+    .rodapie-texto {
+        margin: 0;
+    }
+}
 
 /* Tamaño tablet (768-480) */
 @media all and (min-width: 480px) and (max-width: 768px) { 
-
     /* Sección barra de navegación */
     .container{
         margin: 0;

@@ -13,7 +13,7 @@
 .carrusel__contenedor{
     background: linear-gradient(45grad, #172155, #885EF0);
     border-radius: 5px;
-    height: 17rem;
+    /*height: 17rem;*/
     margin: 0 2rem 0 2rem;
     position: relative;
     width: 90%;
