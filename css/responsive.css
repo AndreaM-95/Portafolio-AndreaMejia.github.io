@@ -1,3 +1,93 @@
+/* Tamaño por defecto pantallas (1280-1024) */
+@media all and (min-width: 1280px) and (max-width: 2560px) {
+    .container{
+        max-width: none;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headerPrincipal-nav {
+        width: 100%;
+        justify-content: end;
+    }
+    .headerPrincipal-nav-link {
+        width: 5%;
+        font-size: 20px;
+    }
+    .info{
+        justify-content: center;
+    }
+    .colaboradores-box3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }
+    .info-descripcion{
+        width: 50%;
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px;
+    }
+    .formacion {
+        width: 80%;
+    }
+    .colab-box1{
+        max-width: none;
+    }
+    .img_colab1{
+        width: 200px;
+        height: 200px;
+    }
+    .cargo {
+        font-size: 33px;
+    }
+    .hdv {
+        width: 70%;
+    }
+    .titulo_secundario {
+        font-size: 35px;
+    }
+    #box__experiencia {
+        width: 80%;
+    }
+    .box__experiencia__1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #carouselExampleControls{
+        width: 85%;
+    }
+    .carrusel{
+        display: flex;
+        justify-content: center;
+    }
+    #carouselExampleControls2{
+        width: 70%;
+    }
+    .experiencia{
+        width: 85%;
+    }
+    .titulo_terciario, .titulo-skill {
+        font-size: 32px;
+    }
+    .texto{
+        width: 95%;
+        font-size: 20px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .contactame-box{
+        width: 30%;
+    }
+    .insignia-descripcion1{
+        font-size: 22px;
+    }
+    .texto-insignia {
+        font-size: 28px;
+    }
+}
 
 /* Tamaño por defecto pantallas (1280-1024) */
 @media all and (min-width: 1024px) and (max-width: 1280px) {
