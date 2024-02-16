@@ -47,13 +47,14 @@
     font-weight: 400;
 }
 
-#carouselExampleControls{
+#carouselExampleControls, #carouselExampleControls2{
     height: auto;
     display: flex;
     justify-content: center;
-    width: 100%;
     margin-bottom: 1%;
 }
+
+
 
 .carousel-item{
     width: 100%;

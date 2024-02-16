@@ -1,25 +1,5 @@
 /* Tamaño por defecto pantallas (1280-1024) */
-@media all and (min-width: 1280px) and (max-width: 2560px) {
-    .container{
-        max-width: none;
-    }
-    #container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .headerPrincipal-nav {
-        width: 100%;
-        margin-left: 20px;
-    }
-    .headerPrincipal-nav-link {
-        width: 6%;
-        font-size: 16px;
-    }
-}
-
-/* Tamaño por defecto pantallas (1280-1024) */
-@media all and (min-width: 1024px) and (max-width: 1280px) {
+@media all and (min-width: 975px) and (max-width: 1440px) {
     .container{
         max-width: none;
     }
@@ -36,46 +16,6 @@
     .hard_box_titulo {
         font-size: 15px;
         padding-top: 5px;
-    }
-    /*Sección contáctame*/
-    .contacto_texto {
-        padding: 0 15px 0 15px;
-    }
-    .btn-contacto {
-        margin: 20px 0 20px 0;
-    }
-    .rodapie-texto {
-        margin: 0;
-    }
-}
-  
-/* Tamaño tablet horizontal (1024-768) */
-@media all and (min-width: 768px) and (max-width: 1024px) { 
-    /* Sección barra de navegación */
-    .container{
-        max-width: none;
-    }
-    .headerPrincipal-nav {
-        display: contents;
-    }
-    .headerPrincipal-nav-link {
-        height: 35px;
-        font-size: 15px;
-    }
-    /*Sección soft y hard skills*/
-    #skill {
-        flex-direction: column;
-    }
-    .box-skill1, .box-skill2 {
-        width: 100%;
-    }
-    .hard_box {
-        width: 12%;
-    }
-    /*Sección experiencia*/
-    .experiencia-box2 {
-        display: flex;
-        align-items: center;
     }
     /*Sección contáctame*/
     .contacto_texto {
@@ -262,58 +202,132 @@
 
 /* Tamaño teléfonos (480-menos ) */
 @media all and (max-width: 480px) {
-
-    /* Sección barra de navegación */
-    .container{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
     .headerPrincipal-nav {
         width: 100%;
         justify-content: center;
     }
     .headerPrincipal-nav-link {
-        height: 30px;
-        justify-content: center;
-        padding: 2px;
-        font-size: 14px;
-        align-items: center;
-        margin: 0 5px 0 5px;
+        font-size: 12px;
+        width: 20%;
+        margin: 2px 5px;
     }
-
-    /* Sección foto e información */
+    .titulo{
+        margin: 30px 0;
+        font-size: 30px;
+    }
     .info{
         flex-direction: column;
+        width: 100%;
     }
     .colaboradores-box3{
         width: 100%;
-        padding: 30px 0 0 0;
+        display: flex;
+        align-items: center;
     }
     .colab-box1{
         align-items: center;
+        margin: 0;
     }
-    
-    .hdv{
-        width: 35%;
-        height: 40px;
+    .img_colab1 {
+        width: 150px;
+        height: 150px;
+    }
+    .cargo{
         font-size: 20px;
-        margin-top: 0;
-    }
-    .titulo{
-        font-size: 28px;
-        text-align: center;
     }
     .info-descripcion{
-        padding: 20px 20px 0 20px;
+        width: 100%;
+        padding: 0;
+        align-items: center;
     }
     .info-descripcion p{
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .box-redes{
+        width: 100%;
+        flex-direction: row;
+    }
+    .box-redes a {
+        margin: 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .box_proyectos {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo_secundario{
+        font-size: 18px;
+        padding: 0;
+    }
+
+    .box_pagina{
+        width: 80%;
+        margin: 5px 0;
+    }
+    .demo{
+        width: 85%;
+        height: auto;
+    }
+    .titulo_proyecto{
+        font-size: 19px;
+    }
+    .tag{
+        width: 23%;
+        height: 22px;
+    }
+    .tag p{
+        font-size: 10px;
+    }
+
+    .descripción_proyecto {
+        font-size: 12px;
+        margin: 0;
+    }
+    .rol{
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .botones {
+        width: 40%;
+        font-size: 13px;
+        height: 35px;
+    }
+
+    #box__experiencia{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .titulo_terciario {
         font-size: 16px;
+        margin: 0;
     }
-    .info-descripcion a {
-        width: 30px;
-        margin: 0 4px 0 0;
+
+    .subtitulo_terciario{
+        font-size: 13px;
+        margin: 5px 0;
     }
+    .box__descripcion p {
+        font-size: 12px;
+        padding: 20px;
+    }
+    #carouselExampleControls, #carouselExampleControls2{
+        width: 90%;
+        padding: 0;
+    }
+    .formacion{
+        padding-top: 0;
+        margin: 50px 0;
+    }
+
+
 
     /* Sección hard y soft skills */
     #skill{
@@ -331,12 +345,6 @@
         font-size: 10px;
         padding-top: 5px;
     }
-
-    /* Sección formación */
-    .formacion{
-        height: auto;
-        padding-top: 0;
-    }
     .formacion-box {
         height: 5rem;
         justify-items: center;
@@ -347,8 +355,6 @@
     .contenedor figure .capa p {
         font-size: 10px;
     }
-    /* Sección formación complementaria*/
-
     .carrusel{
         padding-bottom: 0;
     }
@@ -361,8 +367,7 @@
     .imagen, .carousel-item{
         height: -webkit-fill-available;
     }
-    /* Sección experiencia laboral*/
-    #box__experiencia, .experiencia{
+    .experiencia{
         flex-direction: column;
     }
     .experiencia{
@@ -375,7 +380,7 @@
     }
     .box__experiencia__1, .experiencia-box1 {
         width: 100%;
-        padding: 2%;
+        padding: 0;
         margin-top: 10px;
     }
     .experiencia-box2{
@@ -383,95 +388,91 @@
         display: flex;
         justify-content: center;
     }
-    .demo{
+    #_habilidades{
+        align-items: center;
+        margin: 20px 0;
+    }
+    
+    ._habilidades_Hard_Soft {
         width: 90%;
+        margin-top: 15px;
     }
-    .titulo_secundario{
-        padding-bottom: 0;
-    }
-    .titulo_terciario {
-        font-size: 20px;
-        margin: 0;
-        padding: 0 3% 0 3%;
-    }
-    .subtitulo_terciario{
-        font-size: 16px;
-        margin: 5px 0 5px 0;
-    }
-    .box__descripcion p {
-        font-size: 16px;
+    ._habilidades_Hard_Soft_lista {
+        font-size: 12px;
+        padding: 0;
+        margin: 20px 0;
+        width: 45%;
     }
 
-    /*Sección proyectos*/
-    .botones {
-        font-weight: 600;
-        margin: 0.5rem;
-        width: 40%;
-        height: 40px;
-        font-size: 16px;
+    .insignias{
+        margin: 30px 0;
     }
-    /*Sección reconocimientos*/
-    .titulo_secundario{
-        font-size: 22px;
-        padding-top: 0;
-    }
-    .texto-insignia{
-        font-size: 16px;
-        width: 70%;
-        margin: 0;
-    }
-    .box_texto{
-        display: flex;
-        justify-content: center;
+
+    .insignia-box, .contactame-box{
+        width: 100%;
     }
     .insignia-box{
         justify-content: center;
         flex-wrap: wrap;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .titulo_reconocimientos{
+        font-size: 16px;
+    }
+    .texto-insignia{
+        font-size: 12px;
+        width: 100%;
+        margin: 0;
+        padding: 20px;
     }
     .insignia-descripcion1{
-        font-size: 12px;
+        font-size: 9px;
     }
     .insignia-box-img{
         width: 20%;
         padding: 2px;
-        height: 100px;
+        height: 110px;
         margin: 2px 7px 6px 0;
     }
 
-    .contactame-box{
-        width: 100%;
+    .caja_formulario{
+        width: 85%;
+        padding: 15px;
+    }
+    .titulo_contacto{
+        font-size: 16px;
+        margin: 0;
     }
 
-    .titulo_contacto{
-        font-size: 22px;
-        margin: 0;
-    }
     .contacto_texto{
         margin: 0;
-        font-size: 16px;
-        width: 60%;
+        font-size: 12px;
+        width: 80%;
     }
     .digitar {
         height: 30px;
     }
+
+    .digitar, .digitar1 {
+        font-size: 12px;
+    }
     .btn-contacto {
         margin: 8px 0 15px 0;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 600;
         width: 40%;
         height: 35px;
     }
-    .rodapie-texto {
-        margin: 0;
-    }
-    /*Sección rodapie*/
     .rodapie-img{
         width: 20%;
     }
+    
     .rodapie-texto {
         margin: 0;
+        font-size: 10px;
     }
-    /*Botón volver*/
+   
     .fa-circle-arrow-up:before{
         font-size: 2rem;
     }
