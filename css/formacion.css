@@ -1,33 +1,64 @@
 .formacion{
+    margin: 100px 0;
     display: flex;
-    padding: 1rem;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .formacion-box{
-    background-color: rgb(177, 222, 223);
+    background-color:#DBDBDE;
     border-radius: 5px;
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
-    margin: .5rem;
-    width: 12%;
+    margin: 20px 15px;
+    width: 10%;
 }
 
-.formacion-box:hover{
+.contenedor figure{
+    position:relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 6px;
+    margin: .7rem;
+}
+.contenedor figure img{
+    width: 100%;
+    height: auto;
+    transition: all 400ms ease-out;
+    will-change: transform;
+    align-items: center;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
-    background: linear-gradient(45grad, #885EF0, rgb(49, 144, 227));
+    background-color: #DBDBDE;
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+    background-color: #DBDBDE;
+}
+
+.contenedor figure:hover > img{
     transform: scale(1.1);
 }
 
-.formacion-img{
-    align-items: center;
-    padding: .1rem .3rem;
-    width: 90%;
-}
-
-.formacion-descripcion{
-    font-size: 1rem;
-    font-weight: 600;
-    padding: .5rem;
+.contenedor figure .capa p{
+    color: #25002E;
+    font-size: 16px;;
     text-align: center;
+    font-weight: 600;
+    padding-top: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

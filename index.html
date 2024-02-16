@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" type="image/jpg" href="./multimedia/favicon.ico"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
@@ -21,19 +21,19 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
         <link rel="stylesheet" href="./css/general.css">
         <link rel="stylesheet" href="./css/navegacion.css">
         <link rel="stylesheet" href="./css/sobreMi.css">
-        <link rel="stylesheet" href="./css/hobbies.css">
-        <link rel="stylesheet" href="./css/skill.css">
+        <link rel="stylesheet" href="./css/experienciaLaboral.css">
+        <link rel="stylesheet" href="./css/proyectos.css">
         <link rel="stylesheet" href="./css/formacion.css">
         <link rel="stylesheet" href="./css/complementario.css">
-        <link rel="stylesheet" href="./css/experiencia.css">
+        <link rel="stylesheet" href="./css/skill.css">
         <link rel="stylesheet" href="./css/contactame.css">
         <link rel="stylesheet" href="./css/rodapie.css">
         <link rel="stylesheet" href="./css/boton-top.css">
-        <link rel="stylesheet" href="./css/experienciaLaboral.css">
-        <link rel="stylesheet" href="./css/animacion-seccion.css"></link>
         <link rel="stylesheet" href="./css/responsive.css"></link>
     </head>
 
@@ -45,16 +45,13 @@
                 <nav class="headerPrincipal-nav">
                     <!--<a class="headerPrincipal-nav-link" href="#informacion">Sobre mí</a>-->
                     <a class="headerPrincipal-nav-link" href="https://bit.ly/47P06Rf">Inicio</a>
-                    <a class="headerPrincipal-nav-link" href="#skill">Skills</a>
+                    <a class="headerPrincipal-nav-link" href="#proyectos">Plataformas</a>
+                    <a class="headerPrincipal-nav-link" href="#experiencia">Experiencia</a>
                     <a class="headerPrincipal-nav-link" href="#academica">Formación</a>
-                    <a class="headerPrincipal-nav-link" href="#proyectos">Experiencia</a>
-                    <a class="headerPrincipal-nav-link" href="#contacto">Contáctame</a>
+                    <a class="headerPrincipal-nav-link" href="#contacto">Otros</a>
                 </nav>
             </div>
         </header>
-        <section>
-            <video src="multimedia/videos/prueba1.mp4" autoplay="true" muted="true" loop="true" alt="Video de una cascada" id="video"></video>
-        </section>
 
         <div id="container">
             <!--todo ---------||SECCIÓN SOBRE MI||-------------->
@@ -63,335 +60,155 @@
                     <div class="colab-box1">
                         <img src="multimedia/perfil.jpg" class="img_colab1" alt="Foto de perfil">
                     </div>
-                    <h2 class="cargo">Front End Developer</h2>
-                    <a class="hdv" href="multimedia/CV_FrontEndDeveloper_AndreaMejia.pdf" target="_blank">CV PDF</a>
-                </div>
-
-                <div class="info-descripcion">
                     <h1 class="titulo">Andrea Mejia</h1>
+                </div>
+                
+                <div class="info-descripcion">
+                    <h2 class="cargo">Front End Developer</h2>
                     <p>
                         Estoy formada como desarrolladora de sofware junior en la Universidad Tecnológica de Pereira y Alura Latam. Empecé mi trayectoria profesional con el procesamiento de alimentos. Hice parte del primer grupo en Colombia del programa Desarrollador Jr en Unity realizado por Generation y Unity donde tuve la oportunidad de presentarme en diferentes jams y crear diversos juegos.
-                        </br>
+                        </br></br>
                         Referente al desarrollo de software, como Front end, también he podido programar diferentes plataformas con distintos lenguajes de programación, dichos proyectos los pueden visualizar en la sección de "proyectos" pero mencionando algunos que me llenan de orgullo son los videojuegos "Mystical World", "Rescue at sea", y las páginas "Rescatando patitas" y "Tocando el alma".
                     </p>
+
+                </div>
+                <div class="box-redes">
+                    <a href="multimedia/CV_FrontEndDeveloper_AndreaMejia.pdf" target="_blank" onclick="sonido.play()">
+                        <span class="material-icons cv">description</span>
+                    </a>
 
                     <a href="https://www.linkedin.com/in/andrea-mejia95/" target="_blank" onclick="sonido.play()">
                         <i id="linkedin" class="fa fa-linkedin" aria-hidden="true"></i>
                     </a>
-
+    
                     <a href="https://github.com/AndreaM-95" target="_blank" onclick="sonido.play()">
                         <i class="fa fa-github" aria-hidden="true"></i>
                     </a>
-
+    
                     <a href="https://andreamejia.itch.io/" target="_blank" onclick="sonido.play()">
                         <i class="fa-brands fa-itch-io"></i>
                     </a>
                 </div>
             </section>
-            <hr></hr>
 
-            <!--todo ---------||SECCIÓN SKILLS||-------------->
-            <section id="skill">
-                <div class="box-skill1">
-                    <h3 class="titulo-skill">HARD SKILLS</h3>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/html.png" alt="Logo HTML5"></img>
-                        <figcaption class="hard_box_titulo">HTML 5</figcaption>
-                    </div>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/JavaScript.png" alt="Logo JavaScript"></img>
-                        <figcaption class="hard_box_titulo">JAVASCRIPT</figcaption>
-                    </div>
+            <!--todo ---------||SECCIÓN PROYECTOS||-------------->
+            <section class="box_proyectos">
+                <h3 class="titulo_secundario" id="proyectos">💻 PLATAFORMAS</h3>
 
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/css.png" alt="Logo CSS"></img>
-                        <figcaption class="hard_box_titulo">CSS 3</figcaption>
+                <div class="box_pagina">
+                    <video class="demo" src="multimedia/videos/Tocando-El-Alma.mp4" controls muted></video>
+                    <h3 class="titulo_proyecto">Tocando el alma</h3>
+                    <div class="box_tags">
+                        <div class="tag"><p>React</p></div>
+                        <div class="tag"><p>Html</p></div>
+                        <div class="tag"><p>Css</p></div>
+                        <div class="tag"><p>Bootstrap</p></div>
+                        <div class="tag"><p>Mongo DB</p></div>
+                        <div class="tag"><p>Postman</p></div>
                     </div>
-
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/bootstrap.png" alt="Logo Bootstrap"></img>
-                        <figcaption class="hard_box_titulo">BOOTSTRAP</figcaption>
-                    </div>
-
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/react.png" alt="Logo React"></img>
-                        <figcaption class="hard_box_titulo">REACT</figcaption>
-                    </div>
-
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/nodejs.png" alt="Logo NodeJs"></img>
-                        <figcaption class="hard_box_titulo">NODEJS</figcaption>
-                    </div>
-
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia//java.png" alt="Logo Java"></img>
-                        <figcaption class="hard_box_titulo">JAVA</figcaption>
-                    </div>
-
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/MySql.png" alt="Logo MySQL"></img>
-                        <figcaption class="hard_box_titulo">MYSQL</figcaption>
-                    </div>
-
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/mongo.png" alt="Logo Mongodb"></img>
-                        <figcaption class="hard_box_titulo">MONGO DB</figcaption>
-                    </div>
-
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/unity.png" alt="Logo Unity"></img>
-                        <figcaption class="hard_box_titulo">UNITY</figcaption>
-                    </div>
-
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/python.png" alt="Logo PYTHON"></img>
-                        <figcaption class="hard_box_titulo">PYTHON</figcaption>
-                    </div>
-
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/C.png" alt="Logo C#"></img>
-                        <figcaption class="hard_box_titulo">C#</figcaption>
-                    </div>
-
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/git.png" alt="Logo Git"></img>
-                        <figcaption class="hard_box_titulo">GIT</figcaption>
-                    </div>
+                    <p class="descripción_proyecto">
+                        Esta plataforma se enfoca en facilitar el aprendizaje de la 
+                        guitarra, proporcionando a los usuarios una cuenta personalizada. Al 
+                        iniciar sesión, acceden a un panel con seis secciones que abarcan desde 
+                        teoría musical hasta la posibilidad de cargar archivos para llevar un 
+                        seguimiento de su progreso. Implementé un sistema de edición de 
+                        avances, almacenando toda la información de manera segura en una 
+                        base de datos.
+                    </p>
+                    <p class="rol">Rol: FrontEnd - BackEnd</p>
+                    <a href="https://bit.ly/3TwvQ7V" target="_blank">
+                        <button class="botones" onclick="sonido.play()">Visitar página</button>
+                    </a>
                 </div>
 
-                <!--todo ---------||SECCIÓN Soft skills||------------>
-                <div class="box-skill2">
-                    <h3 class="titulo-skill">SOFT SKILLS</h3>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/Adaptabilidad (1).png" alt="Logo Git"></img>
-                        <figcaption class="hard_box_titulo">Adaptabilidad</figcaption>
+                <div class="box_pagina">
+                    <video class="demo" src="multimedia/videos/Rescatando-Patitas.mp4" controls muted></video>
+                    <h3 class="titulo_proyecto">Rescatando Patitas</h3>
+                    <div class="box_tags">
+                        <div class="tag"><p>Java</p></div>
+                        <div class="tag"><p>Css</p></div>
+                        <div class="tag"><p>Bootstrap</p></div>
+                        <div class="tag"><p>MySql</p></div>
                     </div>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia//Comunicacion (1).png" alt="Logo Git"></img>
-                        <figcaption class="hard_box_titulo">Comunicación</figcaption>
-                    </div>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/Liderazgo (1).png" alt="Logo Git"></img>
-                        <figcaption class="hard_box_titulo">Liderazgo</figcaption>
-                    </div>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/TrabajoEquipo (1).png" alt="Logo Git"></img>
-                        <figcaption class="hard_box_titulo">Trabajo en equipo</figcaption>
-                    </div>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/Empatia (1).png" alt="Logo Git"></img>
-                        <figcaption class="hard_box_titulo">Empatía</figcaption>
-                    </div>
+                    <p class="descripción_proyecto">
+                        Este proyecto se divide en dos perspectivas: la del administrador y la del usuario. Desde la perspectiva del administrador, se accede mediante un sistema de autenticación, permitiendo la gestión de solicitudes de adopción y la administración de las solicitudes para dar en adopción mascotas. Toda esta información se almacena de manera segura en una base de datos MySQL. Desde la perspectiva del usuario, la plataforma muestra todas las mascotas disponibles para adopción, ofreciendo formularios para adoptar o dar en 
+                        adopción, brindando una experiencia completa e interactiva.
+                    </p>
+                    <p class="rol">Rol: FrontEnd</p>
+                    <a href="https://rescatando-patitas-2.vercel.app/" target="_blank">
+                        <button class="botones" onclick="sonido.play()">Visitar página</button>
+                    </a>
+                </div>
 
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/Tiempo.png" alt="Imágen de una guitarra">
-                        <figcaption class="hard_box_titulo">Gestión del Tiempo</figcaption>
+                <div class="box_pagina">
+                    <video class="demo" src="multimedia/videos/e-commerce.mp4" controls muted></video>
+                    <h3 class="titulo_proyecto">E-Commerce Tentación Arte – Sana</h3>
+                    <div class="box_tags">
+                        <div class="tag"><p>Javascript</p></div>
+                        <div class="tag"><p>Html</p></div>
+                        <div class="tag"><p>Css</p></div>
+                        <div class="tag"><p>Css</p></div>
+                        <div class="tag"><p>Localstorage</p></div>
                     </div>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/Futuro.png" alt="Imágen de una guitarra">
-                        <figcaption class="hard_box_titulo">Orientación al futuro</figcaption>
-                    </div>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/Detalle.png" alt="Imágen de una guitarra">
-                        <figcaption class="hard_box_titulo">Orientación al detalle</figcaption>
-                    </div>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/Mentalidad.png" alt="Imágen de una guitarra">
-                        <figcaption class="hard_box_titulo">Mentalidad de crecimiento</figcaption>
-                    </div>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/Persistencia.png" alt="Imágen de una guitarra">
-                        <figcaption class="hard_box_titulo">Persistencia</figcaption>
-                    </div>
+                    <p class="descripción_proyecto">
+                        Esta página web está dedicada a la promoción y venta de productos saludables. Con un diseño intuitivo y funcional, ofrece un carrito de compras que registra los artículos seleccionados, así como una descripción detallada de cada producto. La interacción es fluida, permitiendo agregar o eliminar elementos con facilidad. Además, cuenta con un sistema completo CRUD que garantiza la gestión eficiente de los productos, así como un sistema de auto suma que calcula el valor total de los artículos en el carrito. Los usuarios tienen la opción de crear una cuenta y acceder mediante un sistema de inicio de sesión, lo que proporciona una experiencia personalizada y segura.
+                    </p>
+                    <p class="rol">Rol: FrontEnd - BackEnd</p>
+                    <a href="https://andream-95.github.io/" target="_blank">
+                        <button class="botones" onclick="sonido.play()">Visitar página</button>
+                    </a>
+                </div>
 
-                    <!--todo ---------||SECCIÓN HOBBIES||------------>
-                    <h3 class="titulo-skill">Hobbies</h3>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/bicicleta.png" alt="Imágen de una bicicleta">
-                        <figcaption class="hard_box_titulo">Montar bicicleta</figcaption>
+                <div class="box_pagina">
+                    <video class="demo" src="multimedia/videos/Juego del Ahorcado.mp4" controls muted></video>
+                    <h3 class="titulo_proyecto">Juego del ahorcado</h3>
+                    <div class="box_tags">
+                        <div class="tag"><p>Javascript</p></div>
+                        <div class="tag"><p>Html</p></div>
+                        <div class="tag"><p>Css</p></div>
                     </div>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/leer.png" alt="Imágen de un libro">
-                        <figcaption class="hard_box_titulo">Leer</figcaption>
+                    <p class="descripción_proyecto">
+                        Sumérgete en la emoción del clásico juego del ahorcado. En esta experiencia, te enfrentarás al desafío de descifrar la palabra secreta antes de que se complete el dibujo de la horca. Con cada conjetura acertada, verás cómo se revelan las letras en su lugar correspondiente, manteniendo la intriga hasta el último momento. ¿Podrás adivinar la palabra antes de que sea demasiado tarde?. Para aumentar la inmersión, hemos añadido una cautivadora banda sonora que acompaña tu juego, ofreciéndote la opción de sumergirte aún más en esta emocionante aventura.
+                    </p>
+                    <p class="rol">Rol: FrontEnd</p>
+                    <a href="https://andream-95.github.io/Juego-Del-Ahorcado/" target="_blank">
+                        <button class="botones" onclick="sonido.play()">Visitar página</button>
+                    </a>
+                </div>
+
+                <div class="box_pagina">
+                    <video class="demo" src="multimedia/videos/Cifrador de Texto.mp4" controls muted></video>
+                    <h3 class="titulo_proyecto">Cifrador de texto</h3>
+                    <div class="box_tags">
+                        <div class="tag"><p>Javascript</p></div>
+                        <div class="tag"><p>Html</p></div>
+                        <div class="tag"><p>Css</p></div>
                     </div>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/lapiz.png" alt="Imágen de un lápiz">
-                        <figcaption class="hard_box_titulo">Dibujar</figcaption>
+                    <p class="descripción_proyecto">
+                        Explora la magia de la encriptación con nuestro potente codificador de texto. Esta herramienta te permite cifrar y descifrar mensajes de texto de manera segura y eficiente. Únicamente utilizando minúsculas y excluyendo acentos y números, nuestra aplicación garantiza la integridad de tus comunicaciones. En caso de que el usuario intente desviarse de estos criterios, el programa responderá con un mensaje informativo, recordándole las restricciones de formato establecidas.
+                    </p>
+                    <p class="rol">Rol: FrontEnd</p>
+                    <a href="https://cifreador-de-texto.web.app/" target="_blank">
+                        <button class="botones" onclick="sonido.play()">Visitar página</button>
+                    </a>
+                </div>
+
+                <div class="box_pagina">
+                    <video class="demo" src="multimedia/videos/Conversor-Unidades.mp4" controls muted></video>
+                    <h3 class="titulo_proyecto">Convertidor de unidades</h3>
+                    <div class="box_tags">
+                        <div class="tag"><p>Java</p></div>
                     </div>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/cocinar.png" alt="Imágen de un gorro de chef">
-                        <figcaption class="hard_box_titulo">Cocinar</figcaption>
-                    </div>
-                    <div class="hard_box">
-                        <img class="hard_img" src="multimedia/guitarra.png" alt="Imágen de una guitarra">
-                        <figcaption class="hard_box_titulo">Tocar guitarra</figcaption>
-                    </div>
+                    <p class="descripción_proyecto">
+                        Este es un sistema versátil diseñado para brindarte una solución integral en la conversión de unidades, abarcando tanto monedas como temperatura. Con esta herramienta, puedes realizar conversiones precisas y rápidas, adaptadas a tus necesidades específicas.
+                    </p>
+                    <p class="rol">Rol: BackEnd</p>
                 </div>
             </section>
-            <hr></hr>
-
-            <!--todo ---------||SECCIÓN FORMACIÓN ACADÉMICA||-------------->
-            <h3 class="titulo_secundario">FORMACIÓN ACADÉMICA</h3>
-            <section class="formacion" id="academica">
-
-                <div class="formacion-box img-card">
-                    <div class="contenedor">
-                        <figure>
-                            <img src="multimedia/LogoUnad.png" alt="Logo UNAD"></img>
-                            <div class="capa">
-                                <p>Ingenieria en multimedia</p>
-                                <p><u>En curso</u></p>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-                <div class="formacion-box img-card">
-                    <div class="contenedor">
-                        <figure>
-                            <img src="multimedia/LogoGoogle.png" alt="Logo Google"></img>
-                            <div class="capa">
-                                <p>UX/UI</p>
-                                <p><u>En curso</u></p>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-                <div class="formacion-box img-card">
-                    <div class="contenedor">
-                        <figure>
-                            <img src="multimedia/Edutin.png" alt="Logo Edutin"></img>
-                            <div class="capa">
-                                <p>Inglés</p>
-                                <p><u>En curso</u></p>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-                <div class="formacion-box img-card">
-                    <div class="contenedor">
-                        <figure>
-                            <img src="multimedia/Generation.png" alt="Logo Generation"></img>
-                            <div class="capa">
-                                <p>Desarrollo de VideoJuegos en Unity</p>
-                                <p><u>2023</u></p>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-                <div class="formacion-box img-card">
-                    <div class="contenedor">
-                        <figure>
-                            <img src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>
-                            <div class="capa">
-                                <p>Diplomado en aplicaciones web</p>
-                                <p><u>2022</u></p>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-
-                <div class="formacion-box img-card">
-                    <div class="contenedor">
-                        <figure>
-                            <img src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>
-                            <div class="capa">
-                                <p>Diplomado en desarrollo de software</p>
-                                <p><u>2022</u></p>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-                <div class="formacion-box img-card">
-                    <div class="contenedor">
-                        <figure>
-                            <img src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>
-                            <div class="capa">
-                                <p>Diplomado en programación JAVA</p>
-                                <p><u>2022</u></p>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-
-                <div class="formacion-box img-card">
-                    <div class="contenedor">
-                        <figure>
-                            <img src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>
-                            <div class="capa">
-                                <p>Diplomado en programación Python</p>
-                                <p><u>2022</u></p>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-
-                <div class="formacion-box img-card">
-                    <div class="contenedor">
-                        <figure>
-                            <img src="multimedia/alura.png" alt="Logo Alura"></img>
-                            <div class="capa">
-                                <p>Desarrollo Front - End</p>
-                                <p><u>2022</u></p>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-                <div class="formacion-box img-card">
-                    <div class="contenedor">
-                        <figure>
-                            <img src="multimedia/sena.png" alt="Logo Sena"></img>
-                            <div class="capa">
-                                <p>Tecnólogo en procesamiento de alimentos</p>
-                                <p><u>2020 - 2022</u></p>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-            </section>
-            <hr></hr>
-
-            <!--todo ---------||SECCIÓN FORMACIÓN COMPLEMENTARIA||-------------->
-            <h3 class="titulo_secundario">FORMACIÓN COMPLEMENTARIA</h3>
-            <section class="carrusel">
-
-                <div class="carrusel__contenedor">
-
-                    <button aria-label="Anterior" class="carrusel__anterior">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-
-                    <div class="carrusel__lista">
-                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS1.png" alt="Imágen certificado"></div>
-
-                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS5.png" alt="Imágen certificado"></div>
-
-                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS9.png" alt="Imágen certificado"></div>
-
-                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS2.png" alt="Imágen certificado"></div>
-
-                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/GIT23.png" alt="Imágen certificado"></div>
-
-                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/JS12.png" alt="Imágen certificado"></div>
-
-                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/JS13.png" alt="Imágen certificado"></div>
-
-                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/JS17.png" alt="Imágen certificado"></div>
-
-                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS3.png" alt="Imágen certificado"></div>
-
-                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS4.png" alt="Imágen certificado"></div>
-                    </div>
-
-                    <button aria-label="Siguiente" class="carrusel__siguiente">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
-                </div>
-            </section>
-            <hr></hr>
 
             <!--todo ---------||SECCIÓN EXPERIENCIA||-------------->
-            <h3 class="titulo_secundario" id="proyectos">EXPERIENCIA</h3>
             <section id="box__experiencia">
+                <h3 class="titulo_secundario" id="proyectos">💼 EXPERIENCIA</h3>
                 <div class="box__experiencia__1">
                     <div class="box__descripcion">
                         <h3 class="titulo_terciario">Programador de videojuegos web</h3>
@@ -468,123 +285,259 @@
                 </div>
             </section>
 
-            <h3 class="titulo_secundario" id="proyectos">PROYECTOS</h3>
-            <section class="experiencia">
-                <div class="experiencia-box1">
-                    <h3 class="titulo_terciario">Tocando el alma</h3>
-                    <p class="texto">
-                        Plataforma en donde empleé tecnologías como React, MongoDB, HTML, CSS, Bootstrap y
-                        Postman. Esta plataforma se enfoca en facilitar el aprendizaje de la
-                        guitarra, proporcionando a los usuarios una cuenta personalizada. Al
-                        iniciar sesión, acceden a un panel con seis secciones que abarcan desde
-                        teoría musical hasta la posibilidad de cargar archivos para llevar un
-                        seguimiento de su progreso. Implementé un sistema de edición de
-                        avances, almacenando toda la información de manera segura en una
-                        base de datos.
+            <!--todo ---------||SECCIÓN FORMACIÓN ACADÉMICA||-------------->
+            <section class="formacion" id="academica">
+                <h3 class="titulo_secundario">📚 FORMACIÓN ACADÉMICA</h3>
 
-                        <a href="https://bit.ly/3TwvQ7V" target="_blank">
-                            <button class="botones" onclick="sonido.play()">Visitar página</button>
-                        </a>
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/Logo_Cymetria.png" alt="Logo Cymetria"></img>
+                            <div class="capa">
+                                <p>Desarrollo Full Stack
+                                    <br><br>
+                                    <u>En curso</u>
+                                </p>
+                            </div>
+                        </figure>
+                    </div>
                 </div>
-                <div class="experiencia-box2">
-                    <video class="demo" src="multimedia/videos/Tocando-El-Alma.mp4" controls muted></video>
+
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/LogoUnad.png" alt="Logo UNAD"></img>
+                            <div class="capa">
+                                <p>Ingenieria en multimedia
+                                    <br><br>
+                                    <u>En curso</u>
+                                </p>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/LogoEdutin.png" alt="Logo Edutin"></img>
+                            <div class="capa">
+                                <p>Editor de gáficos vectoriales con Adobe Ilustrator <br><br>
+                                    <u>En curso</u>
+                                </p>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/LogoGoogle.png" alt="Logo Google"></img>
+                            <div class="capa">
+                                <p>UX
+                                    <br><br>
+                                    <u>En curso</u>
+                                </p>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/LogoEdutin.png" alt="Logo Edutin"></img>
+                            <div class="capa">
+                                <p>Ingles
+                                    <br><br>
+                                    <u>En curso</u>
+                                </p>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/Generation.png" alt="Logo Generation"></img>
+                            <div class="capa">
+                                <p>Desarrollo de videojuegos Unity
+                                    <br><br>
+                                    <u>2023</u>
+                                </p>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>
+                            <div class="capa">
+                                <p>Diplomado en aplicaciones web
+                                    <br><br>
+                                    <u>2022</u>
+                                </p>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>
+                            <div class="capa">
+                                <p>Diplomado en desarrollo de software
+                                    <br><br>
+                                    <u>2022</u>
+                                </p>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>
+                            <div class="capa">
+                                <p>Diplomado en programación JAVA
+                                    <br><br>
+                                    <u>2022</u>
+                                </p>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/Logo_U.T.P.png" alt="Logo UTP"></img>
+                            <div class="capa">
+                                <p>Diplomado en programación Python
+                                    <br><br>
+                                    <u>2022</u>
+                                </p>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/alura.png" alt="Logo Alura"></img>
+                            <div class="capa">
+                                <p>Desarrollo Front - End
+                                    <br><br>
+                                    <u>2022</u>
+                                </p>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <div class="formacion-box img-card">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="multimedia/sena.png" alt="Logo Sena"></img>
+                            <div class="capa">
+                                <p>Tecnólogo en procesamiento de alimentos
+                                    <br><br>
+                                    <u>2020 - 2022</u>
+                                </p>
+                            </div>
+                        </figure>
+                    </div>
                 </div>
             </section>
 
-            <section class="experiencia">
-                <div class="experiencia-box1">
-                    <h3 class="titulo_terciario">Rescatando Patitas</h3>
-                    <p class="texto">
-                        Plataforma desarrollada con el fin de incentivar la
-                        adopción de mascotas; se realizó con un equipo de trabajo donde mi rol
-                        fue Desarolladora Front End siendo esta trabajada con JAVA, javascript,
-                        css3, Bootstrap, MySQL logrando así bases sólidas con los lenguajes y frameworks. Posee un sistema para el administrador de la plataforma donde podrá ver las solicitudes por los usuarios, un CRUD aplicado para todos los formularios y una base de datos actualizada en tiempo real según manejo de los encargados que deseen optener la plataforma.
+            <!--todo ---------||SECCIÓN FORMACIÓN COMPLEMENTARIA||-------------->
+            <section class="carrusel">
+                <h3 class="titulo_secundario">📝 FORMACIÓN COMPLEMENTARIA</h3>
 
-                        <a href="https://rescatando-patitas-2.vercel.app/" target="_blank">
-                            <button class="botones" onclick="sonido.play()">Visitar página</button>
-                        </a>
-                </div>
-                <div class="experiencia-box2">
-                    <video class="demo" src="multimedia/videos/Rescatando-Patitas.mp4" controls muted></video>
-                </div>
-            </section>
-            <hr></hr>
-            <section class="experiencia">
-                <div class="experiencia-box1">
-                    <h3 class="titulo_terciario">Convertidor de unidades</h3>
-                    <p class="texto">
-                        Este fue un pequeño sistema realizado con java completamente con el fin de crear un sistema de conversión de unidades tanto de moneda como de temperatura, aquí pude trabajar mi rol de desarrolladora Java logrando con ello afianzar habilidades con el lenguaje.
+                <div class="carrusel__contenedor">
+                    <button aria-label="Anterior" class="carrusel__anterior">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
 
-                        <a href="https://github.com/AndreaM-95/ConversorDeUnidades.git" target="_blank">
-                            <button class="botones" onclick="sonido.play()">Ver repositorio</button>
-                        </a>
-                </div>
-                <div class="experiencia-box2">
-                    <video class="demo" src="multimedia/videos/Conversor-Unidades.mp4" controls muted></video>
-                </div>
-            </section>
-            <hr></hr>
-            <section class="experiencia">
-                <div class="experiencia-box1">
-                    <h3 class="titulo_terciario">E-Commerce Tentación Arte – Sana:</h3>
-                    <p class="texto">
-                        Esta página web se realizó para la promoción y venta de productos saludables, cuenta con un carrito de compras donde registra los ítems agregados, una descripción del producto e interacción al momento de agregar o quitar algún elemento, está realizado el CRUD completo conectando así un sistema de auto suma que calcula el valor total de los productos agregados al carrito. También está la opción de crear un usuario y un logueo para que este ingrese.
-                        El rol que ejecuté fue dearrollador front end trabajandolo de manera individual,para su funcionamiento posee: HTML5, CSS3 y JavaScript
-                    </p>
+                    <div class="carrusel__lista">
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS1.png" alt="Imágen certificado"></div>
 
-                    <a href="https://andream-95.github.io/" target="_blank">
-                        <button class="botones" onclick="sonido.play()">Visitar página</button>
-                    </a>
-                </div>
-                <div class="experiencia-box2">
-                    <video class="demo" src="multimedia/videos/e-commerce.mp4" controls muted></video>
-                </div>
-            </section>
-            <hr></hr>
-            <!--todo aquí pa bajo está bien-->
-            <section class="experiencia">
-                <div class="experiencia-box1">
-                    <h3 class="titulo_terciario">Juego del ahorcado</h3>
-                    <p class="texto">
-                        Este es el popular juego donde el jugador debe adivinar la palabra oculta, por cada letra que digite si es correcta la imprimirá en pantalla sobre un guion bajo, en caso contrario se irá dibujando la horca por cada letra errónea. Tiene ambientación como música de fondo dando la opción de que el usuario la reproduzca si así lo desea.
-                        </br>Para su funcionamiento posee:
-                        HTML5, CSS3 y JavaScript.
-                    </p>
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS5.png" alt="Imágen certificado"></div>
 
-                    <a href="https://andream-95.github.io/Juego-Del-Ahorcado/" target="_blank">
-                        <button class="botones" onclick="sonido.play()">Visitar página</button>
-                    </a>
-                </div>
-                <div class="experiencia-box2">
-                    <video class="demo" src="multimedia/videos/Juego del Ahorcado.mp4" controls muted></video>
-                </div>
-            </section>
-            <hr></hr>
-            <section class="experiencia">
-                <div class="experiencia-box1">
-                    <h3 class="titulo_terciario">Cifrador de texto</h3>
-                    <p class="texto">
-                        Se trata de un codificador que encripta y desencripta el texto; sólo se pueden usar minúsculas, sin acentos ni números y en dado caso de que el usuario quiera faltar a estos criterios el programa le arrojará un mensaje de que sólo permite cierto tipo de letras.
-                        </br>Para su funcionamiento posee: HTML5, CSS3, y JavaScript
-                    </p>
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS9.png" alt="Imágen certificado"></div>
 
-                    <a href="https://cifreador-de-texto.web.app/" target="_blank">
-                        <button class="botones" onclick="sonido.play()">Visitar página</button>
-                    </a>
-                </div>
-                <div class="experiencia-box2">
-                    <video class="demo" src="multimedia/videos/Cifrador de Texto.mp4" controls muted></video>
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS2.png" alt="Imágen certificado"></div>
+
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/GIT23.png" alt="Imágen certificado"></div>
+
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/JS12.png" alt="Imágen certificado"></div>
+
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/JS13.png" alt="Imágen certificado"></div>
+
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/JS17.png" alt="Imágen certificado"></div>
+
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS3.png" alt="Imágen certificado"></div>
+
+                        <div class="carrusel__elemento"><img class="slider_img" src="multimedia/diplomas/CSS4.png" alt="Imágen certificado"></div>
+                    </div>
+
+                    <button aria-label="Siguiente" class="carrusel__siguiente">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
                 </div>
             </section>
 
-            <hr></hr>
+            <!--todo ---------||SECCIÓN SKILLS||-------------->
+            <section id="_habilidades">
+                <div class="_habilidades_Hard_Soft">
+                    <h3 class="titulo_secundario">⚙️ HARD SKILLS</h3>
+                    <menu class="_habilidades_Hard_Soft_lista">
+                        <li>Unity</li>
+                        <li>C#</li>
+                        <li>Javascript</li>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>bootstrap</li>
+                    </menu>
+    
+                    <menu class="_habilidades_Hard_Soft_lista">
+                        <li>React</li>
+                        <li>Java</li>
+                        <li>MySql</li>
+                        <li>Git - Github</li>
+                        <li>Ilustrator</li>
+                        <li>Blender</li>
+                    </menu>
+                </div>
+                <div class="_habilidades_Hard_Soft">
+                    <h3 class="titulo_secundario">🧘‍♀️ SOFT SKILLS</h3>
+                    <menu class="_habilidades_Hard_Soft_lista">
+                        <li>Empatía</li>
+                        <li>Liderazgo</li>
+                        <li>Comunicación</li>
+                        <li>Adaptabilidad</li>
+                        <li>Trabajo en equipo</li>
+                    </menu>
+    
+                    <menu class="_habilidades_Hard_Soft_lista">
+                        <li>Persistencia</li>
+                        <li>Gestión del tiempo</li>
+                        <li>Orientación al futuro</li>
+                        <li>Orientación al detalle</li>
+                        <li>Mentalidad de crecimiento</li>
+                    </menu>
+                </div>
+            </section>
+
             <!--todo ---------||SECCIÓN RECONOCIMIENTO Y CONTACTAME||-------------->
-            <h2 class="titulo_secundario">RECONOCIMIENTOS</h2>
-            <div class="box_texto">
-                <p class="texto-insignia">Insignias de reconocimiento a la culminación de los Challenge impartidos por la Universidad.</p>
-            </div>
             <section class="insignias" id="contacto">
+                <h3 class="titulo_secundario">📋 OTROS</h3>
+                
                 <div class="insignia-box">
+                    <h4 class="titulo_reconocimientos">✅ RECONOCIMIENTOS</h4>
+                    <p class="texto-insignia">Insignias de reconocimiento a la culminación de los Challenge impartidos por la Universidad.</p>
                     <div class="insignia-box-img">
                         <figcaption class="insignia-descripcion1">Cifrador de texto</figcaption>
                         <img class="insignia-img" src="multimedia/Insignia_Challenge 1_Andrea Mejia.png" alt="Insignia_Challenge"></img>
@@ -596,7 +549,7 @@
                     </div>
 
                     <div class="insignia-box-img">
-                        <figcaption class="insignia-descripcion1">Portafolio</figcaption>
+                        <figcaption class="insignia-descripcion1">Portafolio de proyectos</figcaption>
                         <img class="insignia-img" src="multimedia/insignia_portafolio.png" alt="Insignia_Challenge"></img>
                     </div>
 
@@ -617,23 +570,24 @@
                 </div>
 
                 <form class="contactame-box" action="https://formsubmit.co/yamejia088@gmail.com" method="POST">
-                    <h3 class="titulo_contacto">¿Quieres contactarme?</h3>
-                    <p class="contacto_texto">Completa el siguiente formulario y me comunicaré contigo lo antes posible.</p>
-                    <input class="digitar" type="text" name="name" placeholder="Nombre" required>
-                    <input class="digitar" type="email" name="email" placeholder="E-mail" required>
-                    <input class="digitar" type="text" name="name" placeholder="Asunto">
-                    <textarea class="digitar1" name="message" placeholder="Mensaje" required></textarea>
-                    <button class="btn-contacto" type="submit">Enviar mensaje</button>
+                    <div class="caja_formulario">
+                        <h3 class="titulo_contacto">📧 ¿Quieres contactarme?</h3>
+                        <p class="contacto_texto">Completa el siguiente formulario y me comunicaré contigo lo antes posible.</p>
+                        <input class="digitar" type="text" name="name" placeholder="Nombre" required>
+                        <input class="digitar" type="email" name="email" placeholder="E-mail" required>
+                        <input class="digitar" type="text" name="name" placeholder="Asunto" required>
+                        <textarea class="digitar1" name="message" placeholder="Mensaje" required></textarea>
+                        <button class="btn-contacto" type="submit">Enviar mensaje</button>
+                    </div>
                 </form>
             </section>
         </div>
         
-        
         <!--todo ---------||SECCIÓN RODAPIE||-------------->
         <footer class="rodapie">
-            <img class="rodapie-img" src="multimedia/logo.png" alt="Logo Andrea Mejia">
+            <img class="rodapie-img" src="multimedia/Mi_Logo-Blanco.png" alt="Logo Andrea Mejia">
             <p class="rodapie-texto">Desarrollado por Andrea Mejia</p>
-            <p class="rodapie-texto">&copy Copyright - 2022</p>
+            <p class="rodapie-texto">&copy Copyright - 2024</p>
         </footer>
 
         <button class="btn-scrolltop " id="btn_scrolltop"  onclick="sonido.play()">

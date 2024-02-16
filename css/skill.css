@@ -1,48 +1,52 @@
-#skill{
-    display: flex;
-}
-.box-skill1{
-    width: 50%;
+#_habilidades{
+    width: 100%;
+    margin: 50px 0 40px 0;
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem;
     justify-content: center;
+    background: linear-gradient( #44227E, #0A0E37);
+    border-bottom: solid #44227E;
+    padding: 30px 0;
 }
-.box-skill2{
-    width: 50%;
+
+._habilidades_Hard_Soft{
+    width: 40%;
+    border-radius: 30px;
+    margin: 0 2% 0 2%;
     display: flex;
-    flex-wrap: wrap;
-    padding: 1rem;
     justify-content: center;
+    flex-wrap: wrap;
 }
-.titulo-skill{
-    font-size: 1.8rem;
-    font-weight: 600;
-    text-align: center;
-    text-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
-    width: 100%;
-    margin-top: 1rem;
-    color: beige;
+
+._habilidades_Hard_Soft_lista{
+    margin: 40px 0;
+    width: 40%;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
 }
-.hard_box_titulo{
-    font-size: 1.1rem;
-    text-align: center;
-    padding-top: 1rem;
+
+/*     ||  RESPONSIVE  ||    */
+
+@media all and (min-width: 975px) and (max-width: 1440px) {
+    ._habilidades_Hard_Soft_lista {
+        font-size: 14px;
+        padding: 0;
+    }
 }
-.hard_box{
-    background-color: rgb(177, 222, 223);
-    border-radius: 5px;
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
-    margin: 1rem 1rem 0 0;
-    padding: .5rem;
-    width: 13%;
-    height: auto;
-}
-.hard_box:hover{
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
-    background: linear-gradient(45grad, #885EF0, rgb(49, 144, 227));
-    transform: scale(1.1);
-}
-.hard_img{
-    width: 100%;
+
+/* Tamaño teléfonos (480-menos ) */
+@media all and (max-width: 480px) {
+    #_habilidades{
+        flex-direction: column;
+        align-items: center;
+    }
+    ._habilidades_Hard_Soft {
+        width: 90%;
+        margin-top: 15px;
+    }
+    ._habilidades_Hard_Soft_lista {
+        font-size: 14px;
+        padding: 0;
+    }
 }

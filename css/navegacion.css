@@ -1,8 +1,6 @@
 .headerPrincipal .container{            /*USAMOS LA ETIQUETA PADRE*/
-    align-items: center;                /*Los pone alineados al centro*/
-    background: linear-gradient(black, #18423B);
+    align-items: center;                /*Los pone aline*/
     display: flex;                      /*Hace que todo el header y container se vuelva flexible*/
-    justify-content: flex-end;
     padding: .4rem;
 }
 
@@ -11,18 +9,16 @@
 }
 
 .headerPrincipal-nav-link{
-	background-color: #516B6C;
-    border-radius: 5px;
 	color: white;
-    font-size: 1.2rem;
+    font-size: 16px;
     margin-right: 1rem;
     padding: .5rem;
 	text-decoration: none;
     width: 4rem;
+    border-bottom: 2px solid transparent;
 }
 
 .headerPrincipal-nav-link:hover{
-    background: #748AE3;
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
-    transform:scale(1.2);
+    border-image: linear-gradient(to right, #00E0FF,#BB5AF6, #748AE3)2;
+    cursor: pointer;
 } 

@@ -3,39 +3,62 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    background: linear-gradient( #44227E, #0A0E37);
+    border-bottom: solid #44227E;
+    padding: 30px 0;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .box__experiencia__1
 {
-    width: 50%;
+    width: 36%;
     padding: 0 2% 0 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
 }
 
 .box__descripcion
 {
     width: 100%;
+    text-align: center;
+}
+
+.titulo_terciario{
+    font-size: 23px;
+    color: #75a2e6;
+    font-weight: 700;
+}
+.subtitulo_terciario
+{
+    width: 100%;
+    color: #97BDF5;
+    font-size: 19px;
 }
 
 .texto
 {
     text-align: justify;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
 }
 
-.subtitulo_terciario
-{
+#carouselExampleControls{
+    height: auto;
+    display: flex;
+    justify-content: center;
     width: 100%;
-    color: black;
-    font-weight: 600;
-    padding: 0 3% 0 3%;
-    font-size: 1.3rem;
+    margin-bottom: 1%;
 }
+
 .carousel-item{
     width: 100%;
 }
-.imagen{
-    width: 98%;
-    height: 380px;
-}
+
 .d-block, .imagen
 {
     border-radius: 10px;
