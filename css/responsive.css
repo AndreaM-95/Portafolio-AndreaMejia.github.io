@@ -1,8 +1,5 @@
 /* Tamaño por defecto pantallas (1280-1024) */
 @media all and (min-width: 975px) and (max-width: 1440px) {
-    .container{
-        max-width: none;
-    }
     .headerPrincipal-nav {
         display: contents;
     }
@@ -23,9 +20,6 @@
     }
     .btn-contacto {
         margin: 20px 0 20px 0;
-    }
-    .rodapie-texto {
-        margin: 0;
     }
 }
 
