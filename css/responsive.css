@@ -1,26 +1,88 @@
 /* Tamaño por defecto pantallas (1280-1024) */
 @media all and (min-width: 975px) and (max-width: 1440px) {
-    .headerPrincipal-nav {
-        display: contents;
-    }
     .headerPrincipal-nav-link {
-        height: 35px;
-        font-size: 15px;
+        width: 6%;
+        font-size: 12px;
     }
-    .hard_box {
-        width: 15%;
+    .img_colab1 {
+        width: 200px;
+        height: 200px;
     }
-    .hard_box_titulo {
-        font-size: 15px;
-        padding-top: 5px;
+    .titulo {
+        font-size: 25px;
     }
-    /*Sección contáctame*/
-    .contacto_texto {
-        padding: 0 15px 0 15px;
+    .cargo {font-size: 24px;}
+
+    .info-descripcion p, 
+    .rol, 
+    .botones, 
+    .texto,
+    .insignia-descripcion1, 
+    .texto-insignia,
+    .contacto_texto,
+    .btn-contacto,
+    .digitar, .digitar1
+    {font-size: 14px;}
+
+    .demo {height: 150px;}
+    .box-redes a {
+        width: 40px;
+        height: 40px;
     }
-    .btn-contacto {
-        margin: 20px 0 20px 0;
+    .box_proyectos {margin-top: 10px;}
+
+    .titulo_secundario {font-size: 20px;}
+    .descripción_proyecto{
+        font-size: 13px;
     }
+
+    .titulo_proyecto, 
+    .titulo_terciario, 
+    .titulo_reconocimientos, 
+    .titulo_contacto 
+    {font-size: 18px;}
+
+    .tag{
+        width: 20%;
+        height: 20px;
+    }
+    .tag p {font-size: 10px;}
+    .botones {
+        width: 34%;
+        height: 34px;
+        margin: 0;
+    }
+    #box__experiencia {margin: 0;}
+    .box__experiencia__1 {
+        width: 40%;
+        margin-top: 20px;
+    }
+    .subtitulo_terciario {font-size: 16px;}
+
+    .formacion {
+        margin: 50px 0;
+    }
+    .contenedor figure .capa p {
+        font-size: 11px;
+        margin: 0;
+    }
+    .insignia-box-img {
+        width: 25%;
+        padding: 10px;
+    }
+    .caja_formulario {
+        width: 75%;
+        padding: 15px;
+    }
+    .contacto_texto{
+        margin: 0;
+    }
+    .btn-contacto{
+        width: 30%;
+        height: 30px;
+    }
+    .rodapie-img{width: 6%;}
+    .rodapie-texto {font-size: 12px;}
 }
 
 /* Tamaño tablet (768-480) */

@@ -1,6 +1,6 @@
 .headerPrincipal{            /*USAMOS LA ETIQUETA PADRE*/
     align-items: center;                /*Los pone aline*/
-    display: flex;                      /*Hace que todo el header y container se vuelva flexible*/
+    display: flex;                      
 }
 
 .headerPrincipal-nav{                   /*USAMOS LA ETIQUETA PADRE*/
